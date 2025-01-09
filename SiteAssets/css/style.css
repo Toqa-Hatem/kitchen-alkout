@@ -31,7 +31,7 @@ html {
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #FE0000;
+    background: #E8E8E8;
 }
 
 body {
@@ -275,3 +275,252 @@ header.scroll .second-header {
     margin-left: 50px;
 }
 
+/* login  */
+.login-section {
+    background-color: #ffffff; 
+    width: 100%;
+    min-height: 100vh; 
+    position: relative;
+    overflow: hidden; 
+  }
+  .login-section {
+    background-image: url(/SiteAssets/images/pink-bg-curved.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.login-background {
+    position: relative;
+    background: url(../images/login-background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+  .card {
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    border: none;
+  }
+.chef-login {
+ width: 25rem;
+    height: auto;
+}
+  .input-group-eye {
+    position: absolute;
+    left: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: transparent;
+    border: none;
+    color: #808080;
+    display: block;
+    cursor: pointer;
+    z-index: 10;
+}
+  
+  .decor-img {
+    position: absolute;
+    z-index: 1; 
+    width:10rem; 
+  }
+  .decor-top-left {
+    top: 5rem;
+    right: 10px;
+}
+  
+  .decor-bottom-right {
+    top: 10rem;
+    left: 0px;
+  }
+  .decor-center{
+    top: 20rem;
+    right: 0px;
+  }
+  .decor-center-one{
+    bottom: 10rem;
+    left: 50%;
+  }
+  .decor-center-two{
+    top: 30rem;
+    left: 0px;
+  }
+  /* end login  */
+   /* kitchen page  */
+   .header-kitchen {
+    background-image: url('/SiteAssets/images/intro-bg.png');
+    background-size: cover;
+    background-position: center;
+    z-index: 1000;
+  }
+  
+  header .navbar {
+    padding: 10px 20px; /* Adjust padding as needed */
+  }
+  
+  .section-background {
+    background-image: url('your-background-image.jpg'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 50px 0; /* Add padding to create space around the content */
+  }
+  
+  .accordion-item {
+    background-color: transparent !important; /* Make the accordion item transparent */
+    border: none; /* Remove borders if desired */
+  }
+  
+  .accordion-header {
+    background-color: transparent !important; /* Transparent header background */
+  }
+  
+  .accordion-button {
+    background-color: transparent !important; /* Transparent button background */
+    border: none; /* Remove border for cleaner look */
+    color: #fff !important; /* Set button text color to white */
+  }
+  
+  .accordion-button:focus {
+    box-shadow: none !important; /* Remove focus outline */
+  }
+  .accordion-body{
+    color: white;
+
+  }
+  .main-pills .nav-link:active{
+    display: flex;
+    background-color: #fe0000 ;
+    border-radius: 10px;
+    color: #ffffff;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #fe0000 !important;
+    border: none;
+}
+.main-pills .nav-link{
+    display: flex;
+    background-color: transparent;
+    border-radius: 10px;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+}
+.order-cards{
+    position: relative;
+    margin-top: 150px;
+}
+.order-cards .card {
+    max-height: 600px; 
+    overflow-y: auto;
+    overflow-x: hidden; 
+  }
+.clickable-corner {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 20px;
+    height:100%;
+    background-color: #E8E8E8;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .clickable-corner.active {
+    background-color: #ffd89a;
+  }
+    .order-cards .card-header{
+        border-radius:  0 0 35px 35px; 
+        background-color: #FAFAFA;
+        border: 1px solid #0000001A;
+    }
+    .order-cards .card-footer{
+        background-color: #1A1919;
+          color: #ffffff;
+    }
+.bg-lightgreen{
+background-color: #B4E3B7;
+}
+.bg-lightred{
+background-color: #FFBFBF;
+}
+.order-item{
+    border-radius: 5px;
+    border: 1px solid #0000001A;
+    padding-block: 15px;
+}
+
+.btn-details{
+    background-color:#fe0000  ;
+    color: #fff;
+   
+    text-align: center;
+    padding-block: 5px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.btn-details:hover{
+ background-color:#fff ;
+    color: #fe0000;
+}
+/* logout modal */
+.logoutModal .modal-header{
+    text-align: center;
+    background-color: #FE0000;
+    color: #ffffff;
+}
+/* details modal  */
+.detailsModal .modal-content{
+/* background-color: #B5B2B2; */
+border-radius: 20px;
+}
+.title-details{
+    text-align: center;
+    padding: 10px;
+    background-color: #fff;
+    border: 2px solid #fe0000;
+    border-radius: 10px;
+}
+  /* responsive */
+@media(max-width: 1440px) {
+    .chef-login {
+        width: 22rem;
+    }
+}
+@media(max-width: 1200px) {
+    .chef-login {
+        width: 20rem;
+    }
+}
+@media(max-width: 992px) {
+    .chef-login {
+        width: 20rem;
+    }
+    .decor-img {
+        width: 9rem;
+    }
+}
+@media(max-width: 768px) {
+    .chef-login {
+        width: 16rem;
+    }
+    .decor-img {
+        width: 5rem;
+    }
+}
+@media(max-width: 540px) {
+    .chef-login {
+        display: none;
+    }
+    .decor-img {
+        width: 5rem;
+    }
+    .decor-center-two {
+        top: 6rem;
+        left: 0px;
+    }
+    .decor-center {
+        top: 10rem;
+        right: 0px;
+    }
+}

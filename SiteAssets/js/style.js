@@ -202,54 +202,9 @@ function formatTime(time) {
   return time < 10 ? "0" + time : time;
 }
 
-// wizard js 
-
-$(document).ready(function () {
-  //Enable Tooltips
-  var tooltipTriggerList = [].slice.call(
-      document.querySelectorAll('[data-bs-toggle="tooltip"]')
-  );
-  var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
-      return new bootstrap.Tooltip(tooltipTriggerEl);
-  });
-z
-  //Advance Tabs
-  $(".next").click(function () {
-      const nextTabLinkEl = $(".nav-tabs .active")
-          .closest("li")
-          .next("li")
-          .find("a")[0];
-      const nextTab = new bootstrap.Tab(nextTabLinkEl);
-      nextTab.show();
-  });
-
-  $(".previous").click(function () {
-      const prevTabLinkEl = $(".nav-tabs .active")
-          .closest("li")
-          .prev("li")
-          .find("a")[0];
-      const prevTab = new bootstrap.Tab(prevTabLinkEl);
-      prevTab.show();
-  });
-});
 
 
-// ********************************************* 
-//  product quantity 
-let quantity = 1;
-function increaseQuantity() {
-  quantity++;
-  updateQuantityDisplay();
-}
-function decreaseQuantity() {
-  if (quantity > 0) {
-    quantity--;
-    updateQuantityDisplay();
-  }
-}
-function updateQuantityDisplay() {
-  document.getElementById('quantity').textContent = quantity;
-}
+
 // ************************************************** 
 // eye password hide and show 
 const passwordInput = document.getElementById('passwordInput');
@@ -261,66 +216,7 @@ togglePasswordButton.addEventListener('click', function () {
   eyeIcon.classList.toggle('fa-eye-slash');
 });
 //  *********************** 
-
-// login and register modal 
-
-  document.getElementById('showLoginLink').addEventListener('click', function (e) {
-    e.preventDefault();
-    document.getElementById('registerBody').classList.add('d-none');
-    document.getElementById('loginBody').classList.remove('d-none');
-  });
-
-  document.getElementById('showRegisterLink').addEventListener('click', function (e) {
-    e.preventDefault();
-    document.getElementById('loginBody').classList.add('d-none');
-    document.getElementById('registerBody').classList.remove('d-none');
-  });
-// ******************************* 
- 
-// rate-stars 
-document.addEventListener('DOMContentLoaded', function () {
-  const stars = document.querySelectorAll('.star');
-  let currentRating = 0;
-
-  stars.forEach(star => {
-      star.addEventListener('click', function () {
-          const rating = parseInt(this.getAttribute('data-value'));
-
-          // If the clicked star is already the current rating, reset to 0
-          if (currentRating === rating) {
-              currentRating = 0;
-              resetStars();
-          } else {
-              currentRating = rating;
-              highlightStars(rating);
-          }
-      });
-  });
-
-  // Highlight stars up to the given rating
-  function highlightStars(rating) {
-      resetStars();
-      stars.forEach(star => {
-          if (parseInt(star.getAttribute('data-value')) <= rating) {
-              star.classList.add('selected');
-          }
-      });
+  // JavaScript function to toggle the corner color
+  function toggleColor(element) {
+    element.classList.toggle("active");
   }
-
-  // Reset all stars to the default state
-  function resetStars() {
-      stars.forEach(star => {
-          star.classList.remove('selected');
-      });
-  }
-});
-
-
-
-// Close the cart when clicking outside (on the blur overlay)
-document.getElementById("blur-overlay").addEventListener("click", closeCart);
-
-
-
-
-

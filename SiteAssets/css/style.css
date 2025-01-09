@@ -474,11 +474,27 @@ background-color: #FFBFBF;
 /* background-color: #B5B2B2; */
 border-radius: 20px;
 }
+
+.card-details {
+    display: flex;
+    background-color: #FFF2F2;
+    border: 2px solid #000000;
+    box-shadow: 4px 4px 12px 0 #00000033;
+    border-radius: 24px;
+    justify-content: space-between;
+}
 .title-details{
     text-align: center;
     padding: 10px;
     background-color: #fff;
     border: 2px solid #fe0000;
+    border-radius: 10px;
+}
+.order-details{
+    text-align: center;
+    padding: 5px;
+    background-color: #fff;
+    border: 0.1px solid #000000;
     border-radius: 10px;
 }
   /* responsive */

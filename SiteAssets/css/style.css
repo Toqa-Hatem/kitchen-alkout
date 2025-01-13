@@ -497,6 +497,17 @@ border-radius: 20px;
     border: 0.1px solid #000000;
     border-radius: 10px;
 }
+.custom-checkbox:checked {
+    background-color: green;
+    border-color: green;
+  }
+  .custom-checkbox {
+    width: 20px;
+    height: 20px;
+  }
+
+  
+
   /* responsive */
 @media(max-width: 1440px) {
     .chef-login {

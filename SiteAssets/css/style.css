@@ -441,6 +441,7 @@ background-color: #B4E3B7;
 }
 .bg-lightred{
 background-color: #FFBFBF;
+
 }
 .order-item{
     border-radius: 5px;
@@ -505,9 +506,54 @@ border-radius: 20px;
     width: 20px;
     height: 20px;
   }
+/* reciepe page  */
+  .ingredients{
+    background-color: #1A191940;
+    height: 100vh;
+    margin-top: 0;
+    padding-top: 0px;
+  }
+  .container-bg{
+    background-image: url('/SiteAssets/images/reciepe-bg.png'); 
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+.reciepe-title{
+    text-align: center;
+    padding: 10px;
+    background-color: #FFF2F28A;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px 0px #00000040;
 
-  
-
+}
+.bg-main{
+    background-color: #FE0000;
+    border-radius: 20px;
+}
+.bg-main .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fe0000;
+    background-color: #ffffff !important;
+    border: none;
+}
+.bg-main .main-pills .nav-link {
+    border: none;
+}
+.image-on-top {
+    position: absolute;
+    top: -6px;
+    right: 0;
+    transform: translateX(-50%);
+    width: 70px;
+    height: auto;
+    z-index: 1;
+}
+.bg-lightred-ingredients{
+    background-color: #FFF2F2;
+    /* position: relative;  */
+    max-height: 500px;
+    overflow-y: auto;
+}
   /* responsive */
 @media(max-width: 1440px) {
     .chef-login {

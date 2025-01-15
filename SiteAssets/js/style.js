@@ -216,7 +216,23 @@ togglePasswordButton.addEventListener('click', function () {
   eyeIcon.classList.toggle('fa-eye-slash');
 });
 //  *********************** 
+
   // JavaScript function to toggle the corner color
   function toggleColor(element) {
     element.classList.toggle("active");
+  }
+  
+  // checking on checkbox and radio 
+  function toggleCheckbox(orderItem) {
+    const checkbox = orderItem.querySelector('.form-check-input');
+    if (checkbox) {
+      checkbox.checked = !checkbox.checked;
+    }
+  }
+
+  function toggleRadio(formCheck) {
+    const radio = formCheck.querySelector('input[type="radio"]');
+    if (radio) {
+      radio.checked = true;
+    }
   }

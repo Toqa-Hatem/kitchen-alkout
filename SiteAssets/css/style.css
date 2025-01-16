@@ -31,7 +31,7 @@ html {
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #E8E8E8;
+    background: #dbdbdb;
 }
 
 body {
@@ -47,11 +47,6 @@ a {
     text-decoration: none;
     color: inherit;
 }
-
-a:hover {
-    color: inherit;
-}
-
 p {
     line-height: 1.8;
 }
@@ -343,7 +338,6 @@ header.scroll .second-header {
     top: 30rem;
     left: 0px;
   }
-  /* end login  */
    /* kitchen page  */
    .header-kitchen {
     background-image: url('/SiteAssets/images/intro-bg.png');
@@ -356,8 +350,8 @@ header.scroll .second-header {
     padding: 10px 20px; 
   }
   
-  .section-background {
-    background-image: url('your-background-image.jpg'); 
+  .kitchen {
+    background-image: url('/SiteAssets/images/reciepe-bg.png'); 
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -429,7 +423,7 @@ header.scroll .second-header {
     margin-top: 50px;
 }
 .order-cards .card {
-    max-height: 600px; 
+    max-height: 500px; 
     overflow-y: auto;
     overflow-x: hidden; 
   }
@@ -484,12 +478,14 @@ background-color: #FFBFBF;
  background-color:#fff ;
     color: #fe0000;
 }
+
 /* logout modal */
 .logoutModal .modal-header{
     text-align: center;
     background-color: #FE0000;
     color: #ffffff;
 }
+
 /* details modal  */
 .detailsModal .modal-content{
 /* background-color: #B5B2B2; */

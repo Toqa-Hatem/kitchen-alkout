@@ -147,825 +147,698 @@
 
 
   <main>
-    <section class="container order-cards  py-5">
+    <section>
+      <img src="./SiteAssets/images/meat.png" alt="Decoration" class="decor-img decor-top-left">
+      <img src="./SiteAssets/images/spoon.png" alt="Decoration" class="decor-img decor-bottom-right">
+      <img src="./SiteAssets/images/vegetables.png" alt="Decoration" class="decor-img decor-center">
+      <img src="./SiteAssets/images/vegetables.png" alt="Decoration" class="decor-img decor-center-two">
+    </section>
+
+    <section class="kitchen container order-cards  py-5">
       <div class="tab-content mt-5" id="pills-tabContent">
         <div class="tab-pane fade show active" id="pills-delivery" role="tabpanel" aria-labelledby="pills-delivery-tab">
           <div class="row g-3">
-            <div class="col-md-4 ">
-              <div class="card bg-lightgreen border my-4 ">
+            <div class="col-md-4">
+              <div class="card bg-lightred border my-2">
                 <div class="card-header d-flex justify-content-between">
-                  <p class="fw-bold"> <span>اوردر رقم: 002A </span> - <span>قاعة2</span> - <span>طاولة 35</span></p>
+                  <p class="fw-bold">
+                    <span>اوردر رقم: 002A</span> - <span>قاعة2</span> - <span>طاولة 35</span>
+                  </p>
                   <p class="fw-bold">3:45</p>
                 </div>
                 <div class="card-body">
-                  <div class="order-item bg-light p-3 my-2 position-relative">
-                    <div class="clickable-corner" onclick="toggleColor(this)"></div>
-                    <div class="form-check" onclick="toggleCheckbox(this)">
-                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault">
-                      <label class="form-check-label me-4" for="flexCheckDefault">
-                        <span> 2 </span> x <span>كبسة فراخ</span>
-                      </label>
-                    </div>
-
-                  </div>
-                  <div class="order-item bg-light p-3 my-2 position-relative">
-                    <div class="clickable-corner" onclick="toggleColor(this)"></div>
-                    <div class="form-check" onclick="toggleCheckbox(this)">
-                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault">
-                      <label class="form-check-label me-4" for="flexCheckDefault">
-                        <span> 2 </span> x <span>كبسة فراخ</span>
-                      </label>
-                    </div>
-
-                  </div>
 
                   <div class="order-item bg-light p-3 my-2 position-relative">
                     <div class="clickable-corner" onclick="toggleColor(this)"></div>
                     <div class="form-check" onclick="toggleCheckbox(this)">
-                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault">
-                      <label class="form-check-label me-4" for="flexCheckDefault">
-                        <span> 2 </span> x <span>كبسة فراخ</span>
+                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault1">
+                      <label class="form-check-label me-4" for="flexCheckDefault1">
+                        <span>2</span> x <span>كبسة فراخ</span>
                       </label>
                     </div>
-
                   </div>
-
                   <div class="order-item bg-light p-3 my-2 position-relative">
                     <div class="clickable-corner" onclick="toggleColor(this)"></div>
                     <div class="form-check" onclick="toggleCheckbox(this)">
-                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault">
-                      <label class="form-check-label me-4" for="flexCheckDefault">
-                        <span> 2 </span> x <span>كبسة فراخ</span>
+                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault1">
+                      <label class="form-check-label me-4" for="flexCheckDefault1">
+                        <span>2</span> x <span>كبسة فراخ</span>
                       </label>
                     </div>
-
                   </div>
-
                   <div class="order-item bg-light p-3 my-2 position-relative">
                     <div class="clickable-corner" onclick="toggleColor(this)"></div>
                     <div class="form-check" onclick="toggleCheckbox(this)">
-                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault">
-                      <label class="form-check-label me-4" for="flexCheckDefault">
-                        <span> 2 </span> x <span>كبسة فراخ</span>
+                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault1">
+                      <label class="form-check-label me-4" for="flexCheckDefault1">
+                        <span>2</span> x <span>كبسة فراخ</span>
                       </label>
                     </div>
-
                   </div>
-
+                  <div class="order-item bg-light p-3 my-2 position-relative">
+                    <div class="clickable-corner" onclick="toggleColor(this)"></div>
+                    <div class="form-check" onclick="toggleCheckbox(this)">
+                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault2">
+                      <label class="form-check-label me-4" for="flexCheckDefault2">
+                        <span>2</span> x <span>كبسة فراخ</span>
+                      </label>
+                    </div>
+                  </div>
                 </div>
-                <div class="card-footer ">
-
+                <div class="card-footer">
                   <div class="d-flex justify-content-between">
-                    <div class="  form-check  bg-light text-dark px-5 py-1 rounded fw-bold" onclick="toggleRadio(this)">
-                      <input type="radio" class="ms-1" name="x">
-                      <label>قيد التحضير</label>
-
+                    <div class="form-check bg-light text-dark px-5 py-1 rounded fw-bold" onclick="toggleRadio(this)">
+                      <input type="radio" name="x" id="preparing1">
+                      <label for="preparing1">قيد التحضير</label>
                     </div>
-                    <div class="  form-check  bg-light text-dark px-5 py-1 rounded fw-bold" onclick="toggleRadio(this)">
-                      <input type="radio" class="ms-1" name="x">
-                      <label> تم التحضير</label>
-
+                    <div class="form-check bg-light text-dark px-5 py-1 rounded fw-bold" onclick="toggleRadio(this)">
+                      <input type="radio" name="x" id="prepared1">
+                      <label for="prepared1">تم التحضير</label>
                     </div>
                   </div>
-                  <button class="btn-details mt-1" data-bs-toggle="modal" data-bs-target="#detailsModal"> تفاصيل
+                  <button class="btn-details mt-1" data-bs-toggle="modal" data-bs-target="#detailsModal">تفاصيل
                     الطلب</button>
                 </div>
               </div>
             </div>
             <div class="col-md-4">
-
-              <div class="card bg-lightred border my-4">
+              <div class="card bg-lightgreen border my-2">
                 <div class="card-header d-flex justify-content-between">
-                  <p class="fw-bold"> <span>اوردر رقم: 002A </span> - <span>قاعة2</span> - <span>طاولة 35</span></p>
+                  <p class="fw-bold">
+                    <span>اوردر رقم: 002A</span> - <span>قاعة2</span> - <span>طاولة 35</span>
+                  </p>
                   <p class="fw-bold">3:45</p>
                 </div>
                 <div class="card-body">
                   <div class="order-item bg-light p-3 my-2 position-relative">
                     <div class="clickable-corner" onclick="toggleColor(this)"></div>
                     <div class="form-check" onclick="toggleCheckbox(this)">
-                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault">
-                      <label class="form-check-label me-4" for="flexCheckDefault">
-                        <span> 2 </span> x <span>كبسة فراخ</span>
+                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault3">
+                      <label class="form-check-label me-4" for="flexCheckDefault3">
+                        <span>2</span> x <span>كبسة فراخ</span>
                       </label>
                     </div>
-
                   </div>
                   <div class="order-item bg-light p-3 my-2 position-relative">
                     <div class="clickable-corner" onclick="toggleColor(this)"></div>
                     <div class="form-check" onclick="toggleCheckbox(this)">
-                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault">
-                      <label class="form-check-label me-4" for="flexCheckDefault">
-                        <span> 2 </span> x <span>كبسة فراخ</span>
+                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault1">
+                      <label class="form-check-label me-4" for="flexCheckDefault1">
+                        <span>2</span> x <span>كبسة فراخ</span>
                       </label>
                     </div>
-
                   </div>
                   <div class="order-item bg-light p-3 my-2 position-relative">
                     <div class="clickable-corner" onclick="toggleColor(this)"></div>
                     <div class="form-check" onclick="toggleCheckbox(this)">
-                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault">
-                      <label class="form-check-label me-4" for="flexCheckDefault">
-                        <span> 2 </span> x <span>كبسة فراخ</span>
+                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault1">
+                      <label class="form-check-label me-4" for="flexCheckDefault1">
+                        <span>2</span> x <span>كبسة فراخ</span>
                       </label>
                     </div>
-
-                  </div>
-                  <div class="order-item bg-light p-3 my-2 position-relative">
-                    <div class="clickable-corner" onclick="toggleColor(this)"></div>
-                    <div class="form-check" onclick="toggleCheckbox(this)">
-                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault">
-                      <label class="form-check-label me-4" for="flexCheckDefault">
-                        <span> 2 </span> x <span>كبسة فراخ</span>
-                      </label>
-                    </div>
-
-                  </div>
-                  <div class="order-item bg-light p-3 my-2 position-relative">
-                    <div class="clickable-corner" onclick="toggleColor(this)"></div>
-                    <div class="form-check" onclick="toggleCheckbox(this)">
-                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault">
-                      <label class="form-check-label me-4" for="flexCheckDefault">
-                        <span> 2 </span> x <span>كبسة فراخ</span>
-                      </label>
-                    </div>
-
-                  </div>
-
-                  <div class="order-item bg-light p-3 my-2 position-relative">
-                    <div class="clickable-corner" onclick="toggleColor(this)"></div>
-                    <div class="form-check" onclick="toggleCheckbox(this)">
-                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault">
-                      <label class="form-check-label me-4" for="flexCheckDefault">
-                        <span> 2 </span> x <span>كبسة فراخ</span>
-                      </label>
-                    </div>
-
                   </div>
                 </div>
-                <div class="card-footer ">
-
+                <div class="card-footer">
                   <div class="d-flex justify-content-between">
-                    <div class="  form-check  bg-light text-dark px-5 py-1 rounded fw-bold" onclick="toggleRadio(this)">
-                      <input type="radio" class="ms-1" name="x">
-                      <label>قيد التحضير</label>
-
+                    <div class="form-check bg-light text-dark px-5 py-1 rounded fw-bold" onclick="toggleRadio(this)">
+                      <input type="radio" name="x" id="preparing2">
+                      <label for="preparing2">قيد التحضير</label>
                     </div>
-                    <div class="  form-check  bg-light text-dark px-5 py-1 rounded fw-bold" onclick="toggleRadio(this)">
-                      <input type="radio" class="ms-1" name="x">
-                      <label> تم التحضير</label>
-
+                    <div class="form-check bg-light text-dark px-5 py-1 rounded fw-bold" onclick="toggleRadio(this)">
+                      <input type="radio" name="x" id="prepared2">
+                      <label for="prepared2">تم التحضير</label>
                     </div>
                   </div>
-                  <button class="btn-details mt-1" data-bs-toggle="modal" data-bs-target="#detailsModal"> تفاصيل
-                    الطلب</button>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4 ">
-              <div class="card bg-lightred border my-4">
-                <div class="card-header d-flex justify-content-between">
-                  <p class="fw-bold"> <span>اوردر رقم: 002A </span> - <span>قاعة2</span> - <span>طاولة 35</span></p>
-                  <p class="fw-bold">3:45</p>
-                </div>
-                <div class="card-body">
-                  <div class="order-item bg-light p-3 my-2 position-relative">
-                    <div class="clickable-corner" onclick="toggleColor(this)"></div>
-                    <div class="form-check" onclick="toggleCheckbox(this)">
-                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault">
-                      <label class="form-check-label me-4" for="flexCheckDefault">
-                        <span> 2 </span> x <span>كبسة فراخ</span>
-                      </label>
-                    </div>
-
-                  </div>
-                  <div class="order-item bg-light p-3 my-2 position-relative">
-                    <div class="clickable-corner" onclick="toggleColor(this)"></div>
-                    <div class="form-check" onclick="toggleCheckbox(this)">
-                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault">
-                      <label class="form-check-label me-4" for="flexCheckDefault">
-                        <span> 2 </span> x <span>كبسة فراخ</span>
-                      </label>
-                    </div>
-
-                  </div>
-
-                  <div class="order-item bg-light p-3 my-2 position-relative">
-                    <div class="clickable-corner" onclick="toggleColor(this)"></div>
-                    <div class="form-check" onclick="toggleCheckbox(this)">
-                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault">
-                      <label class="form-check-label me-4" for="flexCheckDefault">
-                        <span> 2 </span> x <span>كبسة فراخ</span>
-                      </label>
-                    </div>
-
-                  </div>
-
-
-
-                </div>
-                <div class="card-footer ">
-
-                  <div class="d-flex justify-content-between">
-                    <div class="  form-check  bg-light text-dark px-5 py-1 rounded fw-bold" onclick="toggleRadio(this)">
-                      <input type="radio" class="ms-1" name="x">
-                      <label>قيد التحضير</label>
-
-                    </div>
-                    <div class="  form-check  bg-light text-dark px-5 py-1 rounded fw-bold" onclick="toggleRadio(this)">
-                      <input type="radio" class="ms-1" name="x">
-                      <label> تم التحضير</label>
-
-                    </div>
-                  </div>
-                  <button class="btn-details mt-1" data-bs-toggle="modal" data-bs-target="#detailsModal"> تفاصيل
+                  <button class="btn-details mt-1" data-bs-toggle="modal" data-bs-target="#detailsModal">تفاصيل
                     الطلب</button>
                 </div>
               </div>
             </div>
             <div class="col-md-4">
-              <div class="card bg-lightred border my-4">
+              <div class="card bg-lightred border my-2">
                 <div class="card-header d-flex justify-content-between">
-                  <p class="fw-bold"> <span>اوردر رقم: 002A </span> - <span>قاعة2</span> - <span>طاولة 35</span></p>
+                  <p class="fw-bold">
+                    <span>اوردر رقم: 002A</span> - <span>قاعة2</span> - <span>طاولة 35</span>
+                  </p>
                   <p class="fw-bold">3:45</p>
                 </div>
                 <div class="card-body">
                   <div class="order-item bg-light p-3 my-2 position-relative">
                     <div class="clickable-corner" onclick="toggleColor(this)"></div>
                     <div class="form-check" onclick="toggleCheckbox(this)">
-                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault">
-                      <label class="form-check-label me-4" for="flexCheckDefault">
-                        <span> 2 </span> x <span>كبسة فراخ</span>
+                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault1">
+                      <label class="form-check-label me-4" for="flexCheckDefault1">
+                        <span>2</span> x <span>كبسة فراخ</span>
                       </label>
                     </div>
-
                   </div>
-
                   <div class="order-item bg-light p-3 my-2 position-relative">
                     <div class="clickable-corner" onclick="toggleColor(this)"></div>
                     <div class="form-check" onclick="toggleCheckbox(this)">
-                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault">
-                      <label class="form-check-label me-4" for="flexCheckDefault">
-                        <span> 2 </span> x <span>كبسة فراخ</span>
+                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault1">
+                      <label class="form-check-label me-4" for="flexCheckDefault1">
+                        <span>2</span> x <span>كبسة فراخ</span>
                       </label>
                     </div>
-
                   </div>
-
                   <div class="order-item bg-light p-3 my-2 position-relative">
                     <div class="clickable-corner" onclick="toggleColor(this)"></div>
                     <div class="form-check" onclick="toggleCheckbox(this)">
-                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault">
-                      <label class="form-check-label me-4" for="flexCheckDefault">
-                        <span> 2 </span> x <span>كبسة فراخ</span>
+                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault2">
+                      <label class="form-check-label me-4" for="flexCheckDefault2">
+                        <span>2</span> x <span>كبسة فراخ</span>
                       </label>
                     </div>
-
                   </div>
-
-
-
                 </div>
-                <div class="card-footer ">
-
+                <div class="card-footer">
                   <div class="d-flex justify-content-between">
-                    <div class="  form-check  bg-light text-dark px-5 py-1 rounded fw-bold" onclick="toggleRadio(this)">
-                      <input type="radio" class="ms-1" name="x">
-                      <label>قيد التحضير</label>
-
+                    <div class="form-check bg-light text-dark px-5 py-1 rounded fw-bold" onclick="toggleRadio(this)">
+                      <input type="radio" name="x" id="preparing1">
+                      <label for="preparing1">قيد التحضير</label>
                     </div>
-                    <div class="  form-check  bg-light text-dark px-5 py-1 rounded fw-bold" onclick="toggleRadio(this)">
-                      <input type="radio" class="ms-1" name="x">
-                      <label> تم التحضير</label>
-
+                    <div class="form-check bg-light text-dark px-5 py-1 rounded fw-bold" onclick="toggleRadio(this)">
+                      <input type="radio" name="x" id="prepared1">
+                      <label for="prepared1">تم التحضير</label>
                     </div>
                   </div>
-                  <button class="btn-details mt-1" data-bs-toggle="modal" data-bs-target="#detailsModal"> تفاصيل
+                  <button class="btn-details mt-1" data-bs-toggle="modal" data-bs-target="#detailsModal">تفاصيل
                     الطلب</button>
                 </div>
               </div>
-            </div>
-            <div class="col-md-4 ">
-              <div class="card bg-lightgreen border my-4 ">
-                <div class="card-header d-flex justify-content-between">
-                  <p class="fw-bold"> <span>اوردر رقم: 002A </span> - <span>قاعة2</span> - <span>طاولة 35</span></p>
-                  <p class="fw-bold">3:45</p>
-                </div>
-                <div class="card-body">
-                  <div class="order-item bg-light p-3 my-2 position-relative">
-                    <div class="clickable-corner" onclick="toggleColor(this)"></div>
-                    <div class="form-check" onclick="toggleCheckbox(this)">
-                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault">
-                      <label class="form-check-label me-4" for="flexCheckDefault">
-                        <span> 2 </span> x <span>كبسة فراخ</span>
-                      </label>
-                    </div>
-
-                  </div>
-                  <div class="order-item bg-light p-3 my-2 position-relative">
-                    <div class="clickable-corner" onclick="toggleColor(this)"></div>
-                    <div class="form-check" onclick="toggleCheckbox(this)">
-                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault">
-                      <label class="form-check-label me-4" for="flexCheckDefault">
-                        <span> 2 </span> x <span>كبسة فراخ</span>
-                      </label>
-                    </div>
-
-                  </div>
-
-                  <div class="order-item bg-light p-3 my-2 position-relative">
-                    <div class="clickable-corner" onclick="toggleColor(this)"></div>
-                    <div class="form-check" onclick="toggleCheckbox(this)">
-                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault">
-                      <label class="form-check-label me-4" for="flexCheckDefault">
-                        <span> 2 </span> x <span>كبسة فراخ</span>
-                      </label>
-                    </div>
-
-                  </div>
-
-                  <div class="order-item bg-light p-3 my-2 position-relative">
-                    <div class="clickable-corner" onclick="toggleColor(this)"></div>
-                    <div class="form-check" onclick="toggleCheckbox(this)">
-                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault">
-                      <label class="form-check-label me-4" for="flexCheckDefault">
-                        <span> 2 </span> x <span>كبسة فراخ</span>
-                      </label>
-                    </div>
-
-                  </div>
-
-                  <div class="order-item bg-light p-3 my-2 position-relative">
-                    <div class="clickable-corner" onclick="toggleColor(this)"></div>
-                    <div class="form-check" onclick="toggleCheckbox(this)">
-                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault">
-                      <label class="form-check-label me-4" for="flexCheckDefault">
-                        <span> 2 </span> x <span>كبسة فراخ</span>
-                      </label>
-                    </div>
-
-                  </div>
-
-
-                </div>
-                <div class="card-footer ">
-
-                  <div class="d-flex justify-content-between">
-                    <div class="  form-check  bg-light text-dark px-5 py-1 rounded fw-bold" onclick="toggleRadio(this)">
-                      <input type="radio" class="ms-1" name="x">
-                      <label>قيد التحضير</label>
-
-                    </div>
-                    <div class="  form-check  bg-light text-dark px-5 py-1 rounded fw-bold" onclick="toggleRadio(this)">
-                      <input type="radio" class="ms-1" name="x">
-                      <label> تم التحضير</label>
-
-                    </div>
-                  </div>
-                  <button class="btn-details mt-1" data-bs-toggle="modal" data-bs-target="#detailsModal"> تفاصيل
-                    الطلب</button>
-                </div>
-              </div>
-
             </div>
             <div class="col-md-4">
-
-              <div class="card bg-lightred border my-4">
+              <div class="card bg-lightgreen border my-2">
                 <div class="card-header d-flex justify-content-between">
-                  <p class="fw-bold"> <span>اوردر رقم: 002A </span> - <span>قاعة2</span> - <span>طاولة 35</span></p>
+                  <p class="fw-bold">
+                    <span>اوردر رقم: 002A</span> - <span>قاعة2</span> - <span>طاولة 35</span>
+                  </p>
                   <p class="fw-bold">3:45</p>
                 </div>
                 <div class="card-body">
                   <div class="order-item bg-light p-3 my-2 position-relative">
                     <div class="clickable-corner" onclick="toggleColor(this)"></div>
                     <div class="form-check" onclick="toggleCheckbox(this)">
-                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault">
-                      <label class="form-check-label me-4" for="flexCheckDefault">
-                        <span> 2 </span> x <span>كبسة فراخ</span>
+                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault1">
+                      <label class="form-check-label me-4" for="flexCheckDefault1">
+                        <span>2</span> x <span>كبسة فراخ</span>
                       </label>
                     </div>
-
                   </div>
                   <div class="order-item bg-light p-3 my-2 position-relative">
                     <div class="clickable-corner" onclick="toggleColor(this)"></div>
                     <div class="form-check" onclick="toggleCheckbox(this)">
-                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault">
-                      <label class="form-check-label me-4" for="flexCheckDefault">
-                        <span> 2 </span> x <span>كبسة فراخ</span>
+                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault2">
+                      <label class="form-check-label me-4" for="flexCheckDefault2">
+                        <span>2</span> x <span>كبسة فراخ</span>
                       </label>
                     </div>
-
                   </div>
                   <div class="order-item bg-light p-3 my-2 position-relative">
                     <div class="clickable-corner" onclick="toggleColor(this)"></div>
                     <div class="form-check" onclick="toggleCheckbox(this)">
-                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault">
-                      <label class="form-check-label me-4" for="flexCheckDefault">
-                        <span> 2 </span> x <span>كبسة فراخ</span>
+                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault2">
+                      <label class="form-check-label me-4" for="flexCheckDefault2">
+                        <span>2</span> x <span>كبسة فراخ</span>
                       </label>
                     </div>
-
                   </div>
                   <div class="order-item bg-light p-3 my-2 position-relative">
                     <div class="clickable-corner" onclick="toggleColor(this)"></div>
                     <div class="form-check" onclick="toggleCheckbox(this)">
-                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault">
-                      <label class="form-check-label me-4" for="flexCheckDefault">
-                        <span> 2 </span> x <span>كبسة فراخ</span>
+                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault2">
+                      <label class="form-check-label me-4" for="flexCheckDefault2">
+                        <span>2</span> x <span>كبسة فراخ</span>
                       </label>
                     </div>
-
-                  </div>
-                  <div class="order-item bg-light p-3 my-2 position-relative">
-                    <div class="clickable-corner" onclick="toggleColor(this)"></div>
-                    <div class="form-check" onclick="toggleCheckbox(this)">
-                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault">
-                      <label class="form-check-label me-4" for="flexCheckDefault">
-                        <span> 2 </span> x <span>كبسة فراخ</span>
-                      </label>
-                    </div>
-
-                  </div>
-
-                  <div class="order-item bg-light p-3 my-2 position-relative">
-                    <div class="clickable-corner" onclick="toggleColor(this)"></div>
-                    <div class="form-check" onclick="toggleCheckbox(this)">
-                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault">
-                      <label class="form-check-label me-4" for="flexCheckDefault">
-                        <span> 2 </span> x <span>كبسة فراخ</span>
-                      </label>
-                    </div>
-
                   </div>
                 </div>
-                <div class="card-footer ">
-
+                <div class="card-footer">
                   <div class="d-flex justify-content-between">
-                    <div class="  form-check  bg-light text-dark px-5 py-1 rounded fw-bold" onclick="toggleRadio(this)">
-                      <input type="radio" class="ms-1" name="x">
-                      <label>قيد التحضير</label>
-
+                    <div class="form-check bg-light text-dark px-5 py-1 rounded fw-bold" onclick="toggleRadio(this)">
+                      <input type="radio" name="x" id="preparing1">
+                      <label for="preparing1">قيد التحضير</label>
                     </div>
-                    <div class="  form-check  bg-light text-dark px-5 py-1 rounded fw-bold" onclick="toggleRadio(this)">
-                      <input type="radio" class="ms-1" name="x">
-                      <label> تم التحضير</label>
-
+                    <div class="form-check bg-light text-dark px-5 py-1 rounded fw-bold" onclick="toggleRadio(this)">
+                      <input type="radio" name="x" id="prepared1">
+                      <label for="prepared1">تم التحضير</label>
                     </div>
                   </div>
-                  <button class="btn-details mt-1" data-bs-toggle="modal" data-bs-target="#detailsModal"> تفاصيل
+                  <button class="btn-details mt-1" data-bs-toggle="modal" data-bs-target="#detailsModal">تفاصيل
                     الطلب</button>
                 </div>
               </div>
             </div>
-            
+            <div class="col-md-4">
+              <div class="card bg-lightred border my-2">
+                <div class="card-header d-flex justify-content-between">
+                  <p class="fw-bold">
+                    <span>اوردر رقم: 002A</span> - <span>قاعة2</span> - <span>طاولة 35</span>
+                  </p>
+                  <p class="fw-bold">3:45</p>
+                </div>
+                <div class="card-body">
+                  <div class="order-item bg-light p-3 my-2 position-relative">
+                    <div class="clickable-corner" onclick="toggleColor(this)"></div>
+                    <div class="form-check" onclick="toggleCheckbox(this)">
+                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault1">
+                      <label class="form-check-label me-4" for="flexCheckDefault1">
+                        <span>2</span> x <span>كبسة فراخ</span>
+                      </label>
+                    </div>
+                  </div>
+                  <div class="order-item bg-light p-3 my-2 position-relative">
+                    <div class="clickable-corner" onclick="toggleColor(this)"></div>
+                    <div class="form-check" onclick="toggleCheckbox(this)">
+                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault2">
+                      <label class="form-check-label me-4" for="flexCheckDefault2">
+                        <span>2</span> x <span>كبسة فراخ</span>
+                      </label>
+                    </div>
+                  </div>
+                  <div class="order-item bg-light p-3 my-2 position-relative">
+                    <div class="clickable-corner" onclick="toggleColor(this)"></div>
+                    <div class="form-check" onclick="toggleCheckbox(this)">
+                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault2">
+                      <label class="form-check-label me-4" for="flexCheckDefault2">
+                        <span>2</span> x <span>كبسة فراخ</span>
+                      </label>
+                    </div>
+                  </div>
+                  <div class="order-item bg-light p-3 my-2 position-relative">
+                    <div class="clickable-corner" onclick="toggleColor(this)"></div>
+                    <div class="form-check" onclick="toggleCheckbox(this)">
+                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault2">
+                      <label class="form-check-label me-4" for="flexCheckDefault2">
+                        <span>2</span> x <span>كبسة فراخ</span>
+                      </label>
+                    </div>
+                  </div>
+                  <div class="order-item bg-light p-3 my-2 position-relative">
+                    <div class="clickable-corner" onclick="toggleColor(this)"></div>
+                    <div class="form-check" onclick="toggleCheckbox(this)">
+                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault2">
+                      <label class="form-check-label me-4" for="flexCheckDefault2">
+                        <span>2</span> x <span>كبسة فراخ</span>
+                      </label>
+                    </div>
+                  </div>
+                  <div class="order-item bg-light p-3 my-2 position-relative">
+                    <div class="clickable-corner" onclick="toggleColor(this)"></div>
+                    <div class="form-check" onclick="toggleCheckbox(this)">
+                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault2">
+                      <label class="form-check-label me-4" for="flexCheckDefault2">
+                        <span>2</span> x <span>كبسة فراخ</span>
+                      </label>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-footer">
+                  <div class="d-flex justify-content-between">
+                    <div class="form-check bg-light text-dark px-5 py-1 rounded fw-bold" onclick="toggleRadio(this)">
+                      <input type="radio" name="x" id="preparing1">
+                      <label for="preparing1">قيد التحضير</label>
+                    </div>
+                    <div class="form-check bg-light text-dark px-5 py-1 rounded fw-bold" onclick="toggleRadio(this)">
+                      <input type="radio" name="x" id="prepared1">
+                      <label for="prepared1">تم التحضير</label>
+                    </div>
+                  </div>
+                  <button class="btn-details mt-1" data-bs-toggle="modal" data-bs-target="#detailsModal">تفاصيل
+                    الطلب</button>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card bg-lightred border my-2">
+                <div class="card-header d-flex justify-content-between">
+                  <p class="fw-bold">
+                    <span>اوردر رقم: 002A</span> - <span>قاعة2</span> - <span>طاولة 35</span>
+                  </p>
+                  <p class="fw-bold">3:45</p>
+                </div>
+                <div class="card-body">
+                  <div class="order-item bg-light p-3 my-2 position-relative">
+                    <div class="clickable-corner" onclick="toggleColor(this)"></div>
+                    <div class="form-check" onclick="toggleCheckbox(this)">
+                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault1">
+                      <label class="form-check-label me-4" for="flexCheckDefault1">
+                        <span>2</span> x <span>كبسة فراخ</span>
+                      </label>
+                    </div>
+                  </div>
+                  <div class="order-item bg-light p-3 my-2 position-relative">
+                    <div class="clickable-corner" onclick="toggleColor(this)"></div>
+                    <div class="form-check" onclick="toggleCheckbox(this)">
+                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault2">
+                      <label class="form-check-label me-4" for="flexCheckDefault2">
+                        <span>2</span> x <span>كبسة فراخ</span>
+                      </label>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-footer">
+                  <div class="d-flex justify-content-between">
+                    <div class="form-check bg-light text-dark px-5 py-1 rounded fw-bold" onclick="toggleRadio(this)">
+                      <input type="radio" name="x" id="preparing1">
+                      <label for="preparing1">قيد التحضير</label>
+                    </div>
+                    <div class="form-check bg-light text-dark px-5 py-1 rounded fw-bold" onclick="toggleRadio(this)">
+                      <input type="radio" name="x" id="prepared1">
+                      <label for="prepared1">تم التحضير</label>
+                    </div>
+                  </div>
+                  <button class="btn-details mt-1" data-bs-toggle="modal" data-bs-target="#detailsModal">تفاصيل
+                    الطلب</button>
+                </div>
+              </div>
+            </div>
+
           </div>
         </div>
+
         <div class="tab-pane fade" id="pills-onsite" role="tabpanel" aria-labelledby="pills-onsite-tab">
           <div class="row g-3">
-            <div class="col-md-4 ">
-              <div class="card bg-lightgreen border my-4 ">
+           
+            <div class="col-md-4">
+              <div class="card bg-lightgreen border my-2">
                 <div class="card-header d-flex justify-content-between">
-                  <p class="fw-bold"> <span>اوردر رقم: 002A </span> - <span>قاعة2</span> - <span>طاولة 35</span></p>
+                  <p class="fw-bold">
+                    <span>اوردر رقم: 002A</span> - <span>قاعة2</span> - <span>طاولة 35</span>
+                  </p>
                   <p class="fw-bold">3:45</p>
                 </div>
                 <div class="card-body">
                   <div class="order-item bg-light p-3 my-2 position-relative">
                     <div class="clickable-corner" onclick="toggleColor(this)"></div>
                     <div class="form-check" onclick="toggleCheckbox(this)">
-                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault">
-                      <label class="form-check-label me-4" for="flexCheckDefault">
-                        <span> 2 </span> x <span>كبسة فراخ</span>
+                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault3">
+                      <label class="form-check-label me-4" for="flexCheckDefault3">
+                        <span>2</span> x <span>كبسة فراخ</span>
                       </label>
                     </div>
-
                   </div>
                   <div class="order-item bg-light p-3 my-2 position-relative">
                     <div class="clickable-corner" onclick="toggleColor(this)"></div>
                     <div class="form-check" onclick="toggleCheckbox(this)">
-                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault">
-                      <label class="form-check-label me-4" for="flexCheckDefault">
-                        <span> 2 </span> x <span>كبسة فراخ</span>
+                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault1">
+                      <label class="form-check-label me-4" for="flexCheckDefault1">
+                        <span>2</span> x <span>كبسة فراخ</span>
                       </label>
                     </div>
-
                   </div>
-
                   <div class="order-item bg-light p-3 my-2 position-relative">
                     <div class="clickable-corner" onclick="toggleColor(this)"></div>
                     <div class="form-check" onclick="toggleCheckbox(this)">
-                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault">
-                      <label class="form-check-label me-4" for="flexCheckDefault">
-                        <span> 2 </span> x <span>كبسة فراخ</span>
+                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault1">
+                      <label class="form-check-label me-4" for="flexCheckDefault1">
+                        <span>2</span> x <span>كبسة فراخ</span>
                       </label>
                     </div>
-
                   </div>
-
-                  <div class="order-item bg-light p-3 my-2 position-relative">
-                    <div class="clickable-corner" onclick="toggleColor(this)"></div>
-                    <div class="form-check" onclick="toggleCheckbox(this)">
-                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault">
-                      <label class="form-check-label me-4" for="flexCheckDefault">
-                        <span> 2 </span> x <span>كبسة فراخ</span>
-                      </label>
-                    </div>
-
-                  </div>
-
-                  <div class="order-item bg-light p-3 my-2 position-relative">
-                    <div class="clickable-corner" onclick="toggleColor(this)"></div>
-                    <div class="form-check" onclick="toggleCheckbox(this)">
-                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault">
-                      <label class="form-check-label me-4" for="flexCheckDefault">
-                        <span> 2 </span> x <span>كبسة فراخ</span>
-                      </label>
-                    </div>
-
-                  </div>
-
                 </div>
-                <div class="card-footer ">
-
+                <div class="card-footer">
                   <div class="d-flex justify-content-between">
-                    <div class="  form-check  bg-light text-dark px-5 py-1 rounded fw-bold" onclick="toggleRadio(this)">
-                      <input type="radio" class="ms-1" name="x">
-                      <label>قيد التحضير</label>
-
+                    <div class="form-check bg-light text-dark px-5 py-1 rounded fw-bold" onclick="toggleRadio(this)">
+                      <input type="radio" name="x" id="preparing2">
+                      <label for="preparing2">قيد التحضير</label>
                     </div>
-                    <div class="  form-check  bg-light text-dark px-5 py-1 rounded fw-bold" onclick="toggleRadio(this)">
-                      <input type="radio" class="ms-1" name="x">
-                      <label> تم التحضير</label>
-
+                    <div class="form-check bg-light text-dark px-5 py-1 rounded fw-bold" onclick="toggleRadio(this)">
+                      <input type="radio" name="x" id="prepared2">
+                      <label for="prepared2">تم التحضير</label>
                     </div>
                   </div>
-                  <button class="btn-details mt-1" data-bs-toggle="modal" data-bs-target="#detailsModal"> تفاصيل
+                  <button class="btn-details mt-1" data-bs-toggle="modal" data-bs-target="#detailsModal">تفاصيل
+                    الطلب</button>
+                </div>
+              </div>
+            </div> 
+            <div class="col-md-4">
+              <div class="card bg-lightred border my-2">
+                <div class="card-header d-flex justify-content-between">
+                  <p class="fw-bold">
+                    <span>اوردر رقم: 002A</span> - <span>قاعة2</span> - <span>طاولة 35</span>
+                  </p>
+                  <p class="fw-bold">3:45</p>
+                </div>
+                <div class="card-body">
+
+                  <div class="order-item bg-light p-3 my-2 position-relative">
+                    <div class="clickable-corner" onclick="toggleColor(this)"></div>
+                    <div class="form-check" onclick="toggleCheckbox(this)">
+                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault1">
+                      <label class="form-check-label me-4" for="flexCheckDefault1">
+                        <span>2</span> x <span>كبسة فراخ</span>
+                      </label>
+                    </div>
+                  </div>
+                  <div class="order-item bg-light p-3 my-2 position-relative">
+                    <div class="clickable-corner" onclick="toggleColor(this)"></div>
+                    <div class="form-check" onclick="toggleCheckbox(this)">
+                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault1">
+                      <label class="form-check-label me-4" for="flexCheckDefault1">
+                        <span>2</span> x <span>كبسة فراخ</span>
+                      </label>
+                    </div>
+                  </div>
+                  <div class="order-item bg-light p-3 my-2 position-relative">
+                    <div class="clickable-corner" onclick="toggleColor(this)"></div>
+                    <div class="form-check" onclick="toggleCheckbox(this)">
+                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault1">
+                      <label class="form-check-label me-4" for="flexCheckDefault1">
+                        <span>2</span> x <span>كبسة فراخ</span>
+                      </label>
+                    </div>
+                  </div>
+                  <div class="order-item bg-light p-3 my-2 position-relative">
+                    <div class="clickable-corner" onclick="toggleColor(this)"></div>
+                    <div class="form-check" onclick="toggleCheckbox(this)">
+                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault2">
+                      <label class="form-check-label me-4" for="flexCheckDefault2">
+                        <span>2</span> x <span>كبسة فراخ</span>
+                      </label>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-footer">
+                  <div class="d-flex justify-content-between">
+                    <div class="form-check bg-light text-dark px-5 py-1 rounded fw-bold" onclick="toggleRadio(this)">
+                      <input type="radio" name="x" id="preparing1">
+                      <label for="preparing1">قيد التحضير</label>
+                    </div>
+                    <div class="form-check bg-light text-dark px-5 py-1 rounded fw-bold" onclick="toggleRadio(this)">
+                      <input type="radio" name="x" id="prepared1">
+                      <label for="prepared1">تم التحضير</label>
+                    </div>
+                  </div>
+                  <button class="btn-details mt-1" data-bs-toggle="modal" data-bs-target="#detailsModal">تفاصيل
                     الطلب</button>
                 </div>
               </div>
             </div>
             <div class="col-md-4">
-
-              <div class="card bg-lightred border my-4">
+              <div class="card bg-lightgreen border my-2">
                 <div class="card-header d-flex justify-content-between">
-                  <p class="fw-bold"> <span>اوردر رقم: 002A </span> - <span>قاعة2</span> - <span>طاولة 35</span></p>
+                  <p class="fw-bold">
+                    <span>اوردر رقم: 002A</span> - <span>قاعة2</span> - <span>طاولة 35</span>
+                  </p>
                   <p class="fw-bold">3:45</p>
                 </div>
                 <div class="card-body">
                   <div class="order-item bg-light p-3 my-2 position-relative">
                     <div class="clickable-corner" onclick="toggleColor(this)"></div>
                     <div class="form-check" onclick="toggleCheckbox(this)">
-                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault">
-                      <label class="form-check-label me-4" for="flexCheckDefault">
-                        <span> 2 </span> x <span>كبسة فراخ</span>
+                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault1">
+                      <label class="form-check-label me-4" for="flexCheckDefault1">
+                        <span>2</span> x <span>كبسة فراخ</span>
                       </label>
                     </div>
-
                   </div>
                   <div class="order-item bg-light p-3 my-2 position-relative">
                     <div class="clickable-corner" onclick="toggleColor(this)"></div>
                     <div class="form-check" onclick="toggleCheckbox(this)">
-                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault">
-                      <label class="form-check-label me-4" for="flexCheckDefault">
-                        <span> 2 </span> x <span>كبسة فراخ</span>
+                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault1">
+                      <label class="form-check-label me-4" for="flexCheckDefault1">
+                        <span>2</span> x <span>كبسة فراخ</span>
                       </label>
                     </div>
-
                   </div>
-
+                       <div class="order-item bg-light p-3 my-2 position-relative">
+                    <div class="clickable-corner" onclick="toggleColor(this)"></div>
+                    <div class="form-check" onclick="toggleCheckbox(this)">
+                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault1">
+                      <label class="form-check-label me-4" for="flexCheckDefault1">
+                        <span>2</span> x <span>كبسة فراخ</span>
+                      </label>
+                    </div>
+                  </div>
                   <div class="order-item bg-light p-3 my-2 position-relative">
                     <div class="clickable-corner" onclick="toggleColor(this)"></div>
                     <div class="form-check" onclick="toggleCheckbox(this)">
-                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault">
-                      <label class="form-check-label me-4" for="flexCheckDefault">
-                        <span> 2 </span> x <span>كبسة فراخ</span>
+                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault2">
+                      <label class="form-check-label me-4" for="flexCheckDefault2">
+                        <span>2</span> x <span>كبسة فراخ</span>
                       </label>
                     </div>
-
+                  </div>
+                  <div class="order-item bg-light p-3 my-2 position-relative">
+                    <div class="clickable-corner" onclick="toggleColor(this)"></div>
+                    <div class="form-check" onclick="toggleCheckbox(this)">
+                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault2">
+                      <label class="form-check-label me-4" for="flexCheckDefault2">
+                        <span>2</span> x <span>كبسة فراخ</span>
+                      </label>
+                    </div>
+                  </div>
+                  <div class="order-item bg-light p-3 my-2 position-relative">
+                    <div class="clickable-corner" onclick="toggleColor(this)"></div>
+                    <div class="form-check" onclick="toggleCheckbox(this)">
+                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault2">
+                      <label class="form-check-label me-4" for="flexCheckDefault2">
+                        <span>2</span> x <span>كبسة فراخ</span>
+                      </label>
+                    </div>
                   </div>
                 </div>
-                <div class="card-footer ">
-
+                <div class="card-footer">
                   <div class="d-flex justify-content-between">
-                    <div class="  form-check  bg-light text-dark px-5 py-1 rounded fw-bold" onclick="toggleRadio(this)">
-                      <input type="radio" class="ms-1" name="x">
-                      <label>قيد التحضير</label>
-
+                    <div class="form-check bg-light text-dark px-5 py-1 rounded fw-bold" onclick="toggleRadio(this)">
+                      <input type="radio" name="x" id="preparing1">
+                      <label for="preparing1">قيد التحضير</label>
                     </div>
-                    <div class="  form-check  bg-light text-dark px-5 py-1 rounded fw-bold" onclick="toggleRadio(this)">
-                      <input type="radio" class="ms-1" name="x">
-                      <label> تم التحضير</label>
-
+                    <div class="form-check bg-light text-dark px-5 py-1 rounded fw-bold" onclick="toggleRadio(this)">
+                      <input type="radio" name="x" id="prepared1">
+                      <label for="prepared1">تم التحضير</label>
                     </div>
                   </div>
-                  <button class="btn-details mt-1" data-bs-toggle="modal" data-bs-target="#detailsModal"> تفاصيل
-                    الطلب</button>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4 ">
-              <div class="card bg-lightred border my-4">
-                <div class="card-header d-flex justify-content-between">
-                  <p class="fw-bold"> <span>اوردر رقم: 002A </span> - <span>قاعة2</span> - <span>طاولة 35</span></p>
-                  <p class="fw-bold">3:45</p>
-                </div>
-                <div class="card-body">
-                  <div class="order-item bg-light p-3 my-2 position-relative">
-                    <div class="clickable-corner" onclick="toggleColor(this)"></div>
-                    <div class="form-check" onclick="toggleCheckbox(this)">
-                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault">
-                      <label class="form-check-label me-4" for="flexCheckDefault">
-                        <span> 2 </span> x <span>كبسة فراخ</span>
-                      </label>
-                    </div>
-
-                  </div>
-                  <div class="order-item bg-light p-3 my-2 position-relative">
-                    <div class="clickable-corner" onclick="toggleColor(this)"></div>
-                    <div class="form-check" onclick="toggleCheckbox(this)">
-                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault">
-                      <label class="form-check-label me-4" for="flexCheckDefault">
-                        <span> 2 </span> x <span>كبسة فراخ</span>
-                      </label>
-                    </div>
-
-                  </div>
-
-                  <div class="order-item bg-light p-3 my-2 position-relative">
-                    <div class="clickable-corner" onclick="toggleColor(this)"></div>
-                    <div class="form-check" onclick="toggleCheckbox(this)">
-                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault">
-                      <label class="form-check-label me-4" for="flexCheckDefault">
-                        <span> 2 </span> x <span>كبسة فراخ</span>
-                      </label>
-                    </div>
-
-                  </div>
-
-
-
-                </div>
-                <div class="card-footer ">
-
-                  <div class="d-flex justify-content-between">
-                    <div class="  form-check  bg-light text-dark px-5 py-1 rounded fw-bold" onclick="toggleRadio(this)">
-                      <input type="radio" class="ms-1" name="x">
-                      <label>قيد التحضير</label>
-
-                    </div>
-                    <div class="  form-check  bg-light text-dark px-5 py-1 rounded fw-bold" onclick="toggleRadio(this)">
-                      <input type="radio" class="ms-1" name="x">
-                      <label> تم التحضير</label>
-
-                    </div>
-                  </div>
-                  <button class="btn-details mt-1" data-bs-toggle="modal" data-bs-target="#detailsModal"> تفاصيل
+                  <button class="btn-details mt-1" data-bs-toggle="modal" data-bs-target="#detailsModal">تفاصيل
                     الطلب</button>
                 </div>
               </div>
             </div>
             <div class="col-md-4">
-              <div class="card bg-lightred border my-4">
+              <div class="card bg-lightred border my-2">
                 <div class="card-header d-flex justify-content-between">
-                  <p class="fw-bold"> <span>اوردر رقم: 002A </span> - <span>قاعة2</span> - <span>طاولة 35</span></p>
+                  <p class="fw-bold">
+                    <span>اوردر رقم: 002A</span> - <span>قاعة2</span> - <span>طاولة 35</span>
+                  </p>
                   <p class="fw-bold">3:45</p>
                 </div>
                 <div class="card-body">
                   <div class="order-item bg-light p-3 my-2 position-relative">
                     <div class="clickable-corner" onclick="toggleColor(this)"></div>
                     <div class="form-check" onclick="toggleCheckbox(this)">
-                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault">
-                      <label class="form-check-label me-4" for="flexCheckDefault">
-                        <span> 2 </span> x <span>كبسة فراخ</span>
+                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault1">
+                      <label class="form-check-label me-4" for="flexCheckDefault1">
+                        <span>2</span> x <span>كبسة فراخ</span>
                       </label>
                     </div>
-
                   </div>
-
                   <div class="order-item bg-light p-3 my-2 position-relative">
                     <div class="clickable-corner" onclick="toggleColor(this)"></div>
                     <div class="form-check" onclick="toggleCheckbox(this)">
-                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault">
-                      <label class="form-check-label me-4" for="flexCheckDefault">
-                        <span> 2 </span> x <span>كبسة فراخ</span>
+                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault2">
+                      <label class="form-check-label me-4" for="flexCheckDefault2">
+                        <span>2</span> x <span>كبسة فراخ</span>
                       </label>
                     </div>
-
                   </div>
-
                   <div class="order-item bg-light p-3 my-2 position-relative">
                     <div class="clickable-corner" onclick="toggleColor(this)"></div>
                     <div class="form-check" onclick="toggleCheckbox(this)">
-                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault">
-                      <label class="form-check-label me-4" for="flexCheckDefault">
-                        <span> 2 </span> x <span>كبسة فراخ</span>
+                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault2">
+                      <label class="form-check-label me-4" for="flexCheckDefault2">
+                        <span>2</span> x <span>كبسة فراخ</span>
                       </label>
                     </div>
-
                   </div>
-
-
-
+                  <div class="order-item bg-light p-3 my-2 position-relative">
+                    <div class="clickable-corner" onclick="toggleColor(this)"></div>
+                    <div class="form-check" onclick="toggleCheckbox(this)">
+                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault2">
+                      <label class="form-check-label me-4" for="flexCheckDefault2">
+                        <span>2</span> x <span>كبسة فراخ</span>
+                      </label>
+                    </div>
+                  </div>
+                  <div class="order-item bg-light p-3 my-2 position-relative">
+                    <div class="clickable-corner" onclick="toggleColor(this)"></div>
+                    <div class="form-check" onclick="toggleCheckbox(this)">
+                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault2">
+                      <label class="form-check-label me-4" for="flexCheckDefault2">
+                        <span>2</span> x <span>كبسة فراخ</span>
+                      </label>
+                    </div>
+                  </div>
+                  <div class="order-item bg-light p-3 my-2 position-relative">
+                    <div class="clickable-corner" onclick="toggleColor(this)"></div>
+                    <div class="form-check" onclick="toggleCheckbox(this)">
+                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault2">
+                      <label class="form-check-label me-4" for="flexCheckDefault2">
+                        <span>2</span> x <span>كبسة فراخ</span>
+                      </label>
+                    </div>
+                  </div>
                 </div>
-                <div class="card-footer ">
-
+                <div class="card-footer">
                   <div class="d-flex justify-content-between">
-                    <div class="  form-check  bg-light text-dark px-5 py-1 rounded fw-bold" onclick="toggleRadio(this)">
-                      <input type="radio" class="ms-1" name="x">
-                      <label>قيد التحضير</label>
-
+                    <div class="form-check bg-light text-dark px-5 py-1 rounded fw-bold" onclick="toggleRadio(this)">
+                      <input type="radio" name="x" id="preparing1">
+                      <label for="preparing1">قيد التحضير</label>
                     </div>
-                    <div class="  form-check  bg-light text-dark px-5 py-1 rounded fw-bold" onclick="toggleRadio(this)">
-                      <input type="radio" class="ms-1" name="x">
-                      <label> تم التحضير</label>
-
+                    <div class="form-check bg-light text-dark px-5 py-1 rounded fw-bold" onclick="toggleRadio(this)">
+                      <input type="radio" name="x" id="prepared1">
+                      <label for="prepared1">تم التحضير</label>
                     </div>
                   </div>
-                  <button class="btn-details mt-1" data-bs-toggle="modal" data-bs-target="#detailsModal"> تفاصيل
+                  <button class="btn-details mt-1" data-bs-toggle="modal" data-bs-target="#detailsModal">تفاصيل
                     الطلب</button>
                 </div>
               </div>
             </div>
-            <div class="col-md-4 ">
-              <div class="card bg-lightgreen border my-4 ">
+            <div class="col-md-4">
+              <div class="card bg-lightred border my-2">
                 <div class="card-header d-flex justify-content-between">
-                  <p class="fw-bold"> <span>اوردر رقم: 002A </span> - <span>قاعة2</span> - <span>طاولة 35</span></p>
+                  <p class="fw-bold">
+                    <span>اوردر رقم: 002A</span> - <span>قاعة2</span> - <span>طاولة 35</span>
+                  </p>
                   <p class="fw-bold">3:45</p>
                 </div>
                 <div class="card-body">
                   <div class="order-item bg-light p-3 my-2 position-relative">
                     <div class="clickable-corner" onclick="toggleColor(this)"></div>
                     <div class="form-check" onclick="toggleCheckbox(this)">
-                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault">
-                      <label class="form-check-label me-4" for="flexCheckDefault">
-                        <span> 2 </span> x <span>كبسة فراخ</span>
+                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault1">
+                      <label class="form-check-label me-4" for="flexCheckDefault1">
+                        <span>2</span> x <span>كبسة فراخ</span>
                       </label>
                     </div>
-
                   </div>
                   <div class="order-item bg-light p-3 my-2 position-relative">
                     <div class="clickable-corner" onclick="toggleColor(this)"></div>
                     <div class="form-check" onclick="toggleCheckbox(this)">
-                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault">
-                      <label class="form-check-label me-4" for="flexCheckDefault">
-                        <span> 2 </span> x <span>كبسة فراخ</span>
+                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault2">
+                      <label class="form-check-label me-4" for="flexCheckDefault2">
+                        <span>2</span> x <span>كبسة فراخ</span>
                       </label>
                     </div>
-
                   </div>
-
-                  <div class="order-item bg-light p-3 my-2 position-relative">
-                    <div class="clickable-corner" onclick="toggleColor(this)"></div>
-                    <div class="form-check" onclick="toggleCheckbox(this)">
-                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault">
-                      <label class="form-check-label me-4" for="flexCheckDefault">
-                        <span> 2 </span> x <span>كبسة فراخ</span>
-                      </label>
-                    </div>
-
-                  </div>
-
-                  <div class="order-item bg-light p-3 my-2 position-relative">
-                    <div class="clickable-corner" onclick="toggleColor(this)"></div>
-                    <div class="form-check" onclick="toggleCheckbox(this)">
-                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault">
-                      <label class="form-check-label me-4" for="flexCheckDefault">
-                        <span> 2 </span> x <span>كبسة فراخ</span>
-                      </label>
-                    </div>
-
-                  </div>
-
-                  <div class="order-item bg-light p-3 my-2 position-relative">
-                    <div class="clickable-corner" onclick="toggleColor(this)"></div>
-                    <div class="form-check" onclick="toggleCheckbox(this)">
-                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault">
-                      <label class="form-check-label me-4" for="flexCheckDefault">
-                        <span> 2 </span> x <span>كبسة فراخ</span>
-                      </label>
-                    </div>
-
-                  </div>
-
-
                 </div>
-                <div class="card-footer ">
-
+                <div class="card-footer">
                   <div class="d-flex justify-content-between">
-                    <div class="  form-check  bg-light text-dark px-5 py-1 rounded fw-bold" onclick="toggleRadio(this)">
-                      <input type="radio" class="ms-1" name="x">
-                      <label>قيد التحضير</label>
-
+                    <div class="form-check bg-light text-dark px-5 py-1 rounded fw-bold" onclick="toggleRadio(this)">
+                      <input type="radio" name="x" id="preparing1">
+                      <label for="preparing1">قيد التحضير</label>
                     </div>
-                    <div class="  form-check  bg-light text-dark px-5 py-1 rounded fw-bold" onclick="toggleRadio(this)">
-                      <input type="radio" class="ms-1" name="x">
-                      <label> تم التحضير</label>
-
+                    <div class="form-check bg-light text-dark px-5 py-1 rounded fw-bold" onclick="toggleRadio(this)">
+                      <input type="radio" name="x" id="prepared1">
+                      <label for="prepared1">تم التحضير</label>
                     </div>
                   </div>
-                  <button class="btn-details mt-1" data-bs-toggle="modal" data-bs-target="#detailsModal"> تفاصيل
+                  <button class="btn-details mt-1" data-bs-toggle="modal" data-bs-target="#detailsModal">تفاصيل
                     الطلب</button>
                 </div>
               </div>
-
             </div>
 
           </div>
@@ -973,352 +846,309 @@
 
         <div class="tab-pane fade" id="pills-takeaway" role="tabpanel" aria-labelledby="pills-takeaway-tab">
           <div class="row g-3">
-            <div class="col-md-4 ">
-              <div class="card bg-lightgreen border my-4 ">
+            <div class="col-md-4">
+              <div class="card bg-lightred border my-2">
                 <div class="card-header d-flex justify-content-between">
-                  <p class="fw-bold"> <span>اوردر رقم: 002A </span> - <span>قاعة2</span> - <span>طاولة 35</span></p>
+                  <p class="fw-bold">
+                    <span>اوردر رقم: 002A</span> - <span>قاعة2</span> - <span>طاولة 35</span>
+                  </p>
                   <p class="fw-bold">3:45</p>
                 </div>
                 <div class="card-body">
-                  <div class="order-item bg-light p-3 my-2 position-relative">
-                    <div class="clickable-corner" onclick="toggleColor(this)"></div>
-                    <div class="form-check" onclick="toggleCheckbox(this)">
-                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault">
-                      <label class="form-check-label me-4" for="flexCheckDefault">
-                        <span> 2 </span> x <span>كبسة فراخ</span>
-                      </label>
-                    </div>
-
-                  </div>
-                  <div class="order-item bg-light p-3 my-2 position-relative">
-                    <div class="clickable-corner" onclick="toggleColor(this)"></div>
-                    <div class="form-check" onclick="toggleCheckbox(this)">
-                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault">
-                      <label class="form-check-label me-4" for="flexCheckDefault">
-                        <span> 2 </span> x <span>كبسة فراخ</span>
-                      </label>
-                    </div>
-
-                  </div>
 
                   <div class="order-item bg-light p-3 my-2 position-relative">
                     <div class="clickable-corner" onclick="toggleColor(this)"></div>
                     <div class="form-check" onclick="toggleCheckbox(this)">
-                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault">
-                      <label class="form-check-label me-4" for="flexCheckDefault">
-                        <span> 2 </span> x <span>كبسة فراخ</span>
+                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault1">
+                      <label class="form-check-label me-4" for="flexCheckDefault1">
+                        <span>2</span> x <span>كبسة فراخ</span>
                       </label>
                     </div>
-
                   </div>
-
                   <div class="order-item bg-light p-3 my-2 position-relative">
                     <div class="clickable-corner" onclick="toggleColor(this)"></div>
                     <div class="form-check" onclick="toggleCheckbox(this)">
-                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault">
-                      <label class="form-check-label me-4" for="flexCheckDefault">
-                        <span> 2 </span> x <span>كبسة فراخ</span>
+                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault1">
+                      <label class="form-check-label me-4" for="flexCheckDefault1">
+                        <span>2</span> x <span>كبسة فراخ</span>
                       </label>
                     </div>
-
                   </div>
-
                   <div class="order-item bg-light p-3 my-2 position-relative">
                     <div class="clickable-corner" onclick="toggleColor(this)"></div>
                     <div class="form-check" onclick="toggleCheckbox(this)">
-                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault">
-                      <label class="form-check-label me-4" for="flexCheckDefault">
-                        <span> 2 </span> x <span>كبسة فراخ</span>
+                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault1">
+                      <label class="form-check-label me-4" for="flexCheckDefault1">
+                        <span>2</span> x <span>كبسة فراخ</span>
                       </label>
                     </div>
-
                   </div>
-
+                  <div class="order-item bg-light p-3 my-2 position-relative">
+                    <div class="clickable-corner" onclick="toggleColor(this)"></div>
+                    <div class="form-check" onclick="toggleCheckbox(this)">
+                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault2">
+                      <label class="form-check-label me-4" for="flexCheckDefault2">
+                        <span>2</span> x <span>كبسة فراخ</span>
+                      </label>
+                    </div>
+                  </div>
                 </div>
-                <div class="card-footer ">
-
+                <div class="card-footer">
                   <div class="d-flex justify-content-between">
-                    <div class="  form-check  bg-light text-dark px-5 py-1 rounded fw-bold" onclick="toggleRadio(this)">
-                      <input type="radio" class="ms-1" name="x">
-                      <label>قيد التحضير</label>
-
+                    <div class="form-check bg-light text-dark px-5 py-1 rounded fw-bold" onclick="toggleRadio(this)">
+                      <input type="radio" name="x" id="preparing1">
+                      <label for="preparing1">قيد التحضير</label>
                     </div>
-                    <div class="  form-check  bg-light text-dark px-5 py-1 rounded fw-bold" onclick="toggleRadio(this)">
-                      <input type="radio" class="ms-1" name="x">
-                      <label> تم التحضير</label>
-
+                    <div class="form-check bg-light text-dark px-5 py-1 rounded fw-bold" onclick="toggleRadio(this)">
+                      <input type="radio" name="x" id="prepared1">
+                      <label for="prepared1">تم التحضير</label>
                     </div>
                   </div>
-                  <button class="btn-details mt-1" data-bs-toggle="modal" data-bs-target="#detailsModal"> تفاصيل
+                  <button class="btn-details mt-1" data-bs-toggle="modal" data-bs-target="#detailsModal">تفاصيل
                     الطلب</button>
                 </div>
               </div>
             </div>
             <div class="col-md-4">
-
-              <div class="card bg-lightred border my-4">
+              <div class="card bg-lightgreen border my-2">
                 <div class="card-header d-flex justify-content-between">
-                  <p class="fw-bold"> <span>اوردر رقم: 002A </span> - <span>قاعة2</span> - <span>طاولة 35</span></p>
+                  <p class="fw-bold">
+                    <span>اوردر رقم: 002A</span> - <span>قاعة2</span> - <span>طاولة 35</span>
+                  </p>
                   <p class="fw-bold">3:45</p>
                 </div>
                 <div class="card-body">
                   <div class="order-item bg-light p-3 my-2 position-relative">
                     <div class="clickable-corner" onclick="toggleColor(this)"></div>
                     <div class="form-check" onclick="toggleCheckbox(this)">
-                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault">
-                      <label class="form-check-label me-4" for="flexCheckDefault">
-                        <span> 2 </span> x <span>كبسة فراخ</span>
+                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault3">
+                      <label class="form-check-label me-4" for="flexCheckDefault3">
+                        <span>2</span> x <span>كبسة فراخ</span>
                       </label>
                     </div>
-
                   </div>
                   <div class="order-item bg-light p-3 my-2 position-relative">
                     <div class="clickable-corner" onclick="toggleColor(this)"></div>
                     <div class="form-check" onclick="toggleCheckbox(this)">
-                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault">
-                      <label class="form-check-label me-4" for="flexCheckDefault">
-                        <span> 2 </span> x <span>كبسة فراخ</span>
+                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault1">
+                      <label class="form-check-label me-4" for="flexCheckDefault1">
+                        <span>2</span> x <span>كبسة فراخ</span>
                       </label>
                     </div>
-
                   </div>
-
                   <div class="order-item bg-light p-3 my-2 position-relative">
                     <div class="clickable-corner" onclick="toggleColor(this)"></div>
                     <div class="form-check" onclick="toggleCheckbox(this)">
-                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault">
-                      <label class="form-check-label me-4" for="flexCheckDefault">
-                        <span> 2 </span> x <span>كبسة فراخ</span>
+                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault1">
+                      <label class="form-check-label me-4" for="flexCheckDefault1">
+                        <span>2</span> x <span>كبسة فراخ</span>
                       </label>
                     </div>
-
                   </div>
                 </div>
-                <div class="card-footer ">
-
+                <div class="card-footer">
                   <div class="d-flex justify-content-between">
-                    <div class="  form-check  bg-light text-dark px-5 py-1 rounded fw-bold" onclick="toggleRadio(this)">
-                      <input type="radio" class="ms-1" name="x">
-                      <label>قيد التحضير</label>
-
+                    <div class="form-check bg-light text-dark px-5 py-1 rounded fw-bold" onclick="toggleRadio(this)">
+                      <input type="radio" name="x" id="preparing2">
+                      <label for="preparing2">قيد التحضير</label>
                     </div>
-                    <div class="  form-check  bg-light text-dark px-5 py-1 rounded fw-bold" onclick="toggleRadio(this)">
-                      <input type="radio" class="ms-1" name="x">
-                      <label> تم التحضير</label>
-
+                    <div class="form-check bg-light text-dark px-5 py-1 rounded fw-bold" onclick="toggleRadio(this)">
+                      <input type="radio" name="x" id="prepared2">
+                      <label for="prepared2">تم التحضير</label>
                     </div>
                   </div>
-                  <button class="btn-details mt-1" data-bs-toggle="modal" data-bs-target="#detailsModal"> تفاصيل
-                    الطلب</button>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4 ">
-              <div class="card bg-lightred border my-4">
-                <div class="card-header d-flex justify-content-between">
-                  <p class="fw-bold"> <span>اوردر رقم: 002A </span> - <span>قاعة2</span> - <span>طاولة 35</span></p>
-                  <p class="fw-bold">3:45</p>
-                </div>
-                <div class="card-body">
-                  <div class="order-item bg-light p-3 my-2 position-relative">
-                    <div class="clickable-corner" onclick="toggleColor(this)"></div>
-                    <div class="form-check" onclick="toggleCheckbox(this)">
-                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault">
-                      <label class="form-check-label me-4" for="flexCheckDefault">
-                        <span> 2 </span> x <span>كبسة فراخ</span>
-                      </label>
-                    </div>
-
-                  </div>
-                  <div class="order-item bg-light p-3 my-2 position-relative">
-                    <div class="clickable-corner" onclick="toggleColor(this)"></div>
-                    <div class="form-check" onclick="toggleCheckbox(this)">
-                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault">
-                      <label class="form-check-label me-4" for="flexCheckDefault">
-                        <span> 2 </span> x <span>كبسة فراخ</span>
-                      </label>
-                    </div>
-
-                  </div>
-
-                  <div class="order-item bg-light p-3 my-2 position-relative">
-                    <div class="clickable-corner" onclick="toggleColor(this)"></div>
-                    <div class="form-check" onclick="toggleCheckbox(this)">
-                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault">
-                      <label class="form-check-label me-4" for="flexCheckDefault">
-                        <span> 2 </span> x <span>كبسة فراخ</span>
-                      </label>
-                    </div>
-
-                  </div>
-
-
-
-                </div>
-                <div class="card-footer ">
-
-                  <div class="d-flex justify-content-between">
-                    <div class="  form-check  bg-light text-dark px-5 py-1 rounded fw-bold" onclick="toggleRadio(this)">
-                      <input type="radio" class="ms-1" name="x">
-                      <label>قيد التحضير</label>
-
-                    </div>
-                    <div class="  form-check  bg-light text-dark px-5 py-1 rounded fw-bold" onclick="toggleRadio(this)">
-                      <input type="radio" class="ms-1" name="x">
-                      <label> تم التحضير</label>
-
-                    </div>
-                  </div>
-                  <button class="btn-details mt-1" data-bs-toggle="modal" data-bs-target="#detailsModal"> تفاصيل
+                  <button class="btn-details mt-1" data-bs-toggle="modal" data-bs-target="#detailsModal">تفاصيل
                     الطلب</button>
                 </div>
               </div>
             </div>
             <div class="col-md-4">
-              <div class="card bg-lightred border my-4">
+              <div class="card bg-lightgreen border my-2">
                 <div class="card-header d-flex justify-content-between">
-                  <p class="fw-bold"> <span>اوردر رقم: 002A </span> - <span>قاعة2</span> - <span>طاولة 35</span></p>
+                  <p class="fw-bold">
+                    <span>اوردر رقم: 002A</span> - <span>قاعة2</span> - <span>طاولة 35</span>
+                  </p>
                   <p class="fw-bold">3:45</p>
                 </div>
                 <div class="card-body">
                   <div class="order-item bg-light p-3 my-2 position-relative">
                     <div class="clickable-corner" onclick="toggleColor(this)"></div>
                     <div class="form-check" onclick="toggleCheckbox(this)">
-                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault">
-                      <label class="form-check-label me-4" for="flexCheckDefault">
-                        <span> 2 </span> x <span>كبسة فراخ</span>
+                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault1">
+                      <label class="form-check-label me-4" for="flexCheckDefault1">
+                        <span>2</span> x <span>كبسة فراخ</span>
                       </label>
                     </div>
-
                   </div>
-
                   <div class="order-item bg-light p-3 my-2 position-relative">
                     <div class="clickable-corner" onclick="toggleColor(this)"></div>
                     <div class="form-check" onclick="toggleCheckbox(this)">
-                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault">
-                      <label class="form-check-label me-4" for="flexCheckDefault">
-                        <span> 2 </span> x <span>كبسة فراخ</span>
+                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault2">
+                      <label class="form-check-label me-4" for="flexCheckDefault2">
+                        <span>2</span> x <span>كبسة فراخ</span>
                       </label>
                     </div>
-
                   </div>
-
                   <div class="order-item bg-light p-3 my-2 position-relative">
                     <div class="clickable-corner" onclick="toggleColor(this)"></div>
                     <div class="form-check" onclick="toggleCheckbox(this)">
-                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault">
-                      <label class="form-check-label me-4" for="flexCheckDefault">
-                        <span> 2 </span> x <span>كبسة فراخ</span>
+                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault2">
+                      <label class="form-check-label me-4" for="flexCheckDefault2">
+                        <span>2</span> x <span>كبسة فراخ</span>
                       </label>
                     </div>
-
                   </div>
-
-
-
+                  <div class="order-item bg-light p-3 my-2 position-relative">
+                    <div class="clickable-corner" onclick="toggleColor(this)"></div>
+                    <div class="form-check" onclick="toggleCheckbox(this)">
+                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault2">
+                      <label class="form-check-label me-4" for="flexCheckDefault2">
+                        <span>2</span> x <span>كبسة فراخ</span>
+                      </label>
+                    </div>
+                  </div>
                 </div>
-                <div class="card-footer ">
-
+                <div class="card-footer">
                   <div class="d-flex justify-content-between">
-                    <div class="  form-check  bg-light text-dark px-5 py-1 rounded fw-bold" onclick="toggleRadio(this)">
-                      <input type="radio" class="ms-1" name="x">
-                      <label>قيد التحضير</label>
-
+                    <div class="form-check bg-light text-dark px-5 py-1 rounded fw-bold" onclick="toggleRadio(this)">
+                      <input type="radio" name="x" id="preparing1">
+                      <label for="preparing1">قيد التحضير</label>
                     </div>
-                    <div class="  form-check  bg-light text-dark px-5 py-1 rounded fw-bold" onclick="toggleRadio(this)">
-                      <input type="radio" class="ms-1" name="x">
-                      <label> تم التحضير</label>
-
+                    <div class="form-check bg-light text-dark px-5 py-1 rounded fw-bold" onclick="toggleRadio(this)">
+                      <input type="radio" name="x" id="prepared1">
+                      <label for="prepared1">تم التحضير</label>
                     </div>
                   </div>
-                  <button class="btn-details mt-1" data-bs-toggle="modal" data-bs-target="#detailsModal"> تفاصيل
+                  <button class="btn-details mt-1" data-bs-toggle="modal" data-bs-target="#detailsModal">تفاصيل
                     الطلب</button>
                 </div>
               </div>
             </div>
-            <div class="col-md-4 ">
-              <div class="card bg-lightgreen border my-4 ">
+            <div class="col-md-4">
+              <div class="card bg-lightred border my-2">
                 <div class="card-header d-flex justify-content-between">
-                  <p class="fw-bold"> <span>اوردر رقم: 002A </span> - <span>قاعة2</span> - <span>طاولة 35</span></p>
+                  <p class="fw-bold">
+                    <span>اوردر رقم: 002A</span> - <span>قاعة2</span> - <span>طاولة 35</span>
+                  </p>
                   <p class="fw-bold">3:45</p>
                 </div>
                 <div class="card-body">
                   <div class="order-item bg-light p-3 my-2 position-relative">
                     <div class="clickable-corner" onclick="toggleColor(this)"></div>
                     <div class="form-check" onclick="toggleCheckbox(this)">
-                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault">
-                      <label class="form-check-label me-4" for="flexCheckDefault">
-                        <span> 2 </span> x <span>كبسة فراخ</span>
+                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault1">
+                      <label class="form-check-label me-4" for="flexCheckDefault1">
+                        <span>2</span> x <span>كبسة فراخ</span>
                       </label>
                     </div>
-
                   </div>
                   <div class="order-item bg-light p-3 my-2 position-relative">
                     <div class="clickable-corner" onclick="toggleColor(this)"></div>
                     <div class="form-check" onclick="toggleCheckbox(this)">
-                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault">
-                      <label class="form-check-label me-4" for="flexCheckDefault">
-                        <span> 2 </span> x <span>كبسة فراخ</span>
+                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault2">
+                      <label class="form-check-label me-4" for="flexCheckDefault2">
+                        <span>2</span> x <span>كبسة فراخ</span>
                       </label>
                     </div>
-
                   </div>
-
                   <div class="order-item bg-light p-3 my-2 position-relative">
                     <div class="clickable-corner" onclick="toggleColor(this)"></div>
                     <div class="form-check" onclick="toggleCheckbox(this)">
-                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault">
-                      <label class="form-check-label me-4" for="flexCheckDefault">
-                        <span> 2 </span> x <span>كبسة فراخ</span>
+                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault2">
+                      <label class="form-check-label me-4" for="flexCheckDefault2">
+                        <span>2</span> x <span>كبسة فراخ</span>
                       </label>
                     </div>
-
                   </div>
-
                   <div class="order-item bg-light p-3 my-2 position-relative">
                     <div class="clickable-corner" onclick="toggleColor(this)"></div>
                     <div class="form-check" onclick="toggleCheckbox(this)">
-                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault">
-                      <label class="form-check-label me-4" for="flexCheckDefault">
-                        <span> 2 </span> x <span>كبسة فراخ</span>
+                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault2">
+                      <label class="form-check-label me-4" for="flexCheckDefault2">
+                        <span>2</span> x <span>كبسة فراخ</span>
                       </label>
                     </div>
-
                   </div>
-
                   <div class="order-item bg-light p-3 my-2 position-relative">
                     <div class="clickable-corner" onclick="toggleColor(this)"></div>
                     <div class="form-check" onclick="toggleCheckbox(this)">
-                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault">
-                      <label class="form-check-label me-4" for="flexCheckDefault">
-                        <span> 2 </span> x <span>كبسة فراخ</span>
+                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault2">
+                      <label class="form-check-label me-4" for="flexCheckDefault2">
+                        <span>2</span> x <span>كبسة فراخ</span>
                       </label>
                     </div>
-
                   </div>
-
-
+                  <div class="order-item bg-light p-3 my-2 position-relative">
+                    <div class="clickable-corner" onclick="toggleColor(this)"></div>
+                    <div class="form-check" onclick="toggleCheckbox(this)">
+                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault2">
+                      <label class="form-check-label me-4" for="flexCheckDefault2">
+                        <span>2</span> x <span>كبسة فراخ</span>
+                      </label>
+                    </div>
+                  </div>
                 </div>
-                <div class="card-footer ">
-
+                <div class="card-footer">
                   <div class="d-flex justify-content-between">
-                    <div class="  form-check  bg-light text-dark px-5 py-1 rounded fw-bold" onclick="toggleRadio(this)">
-                      <input type="radio" class="ms-1" name="x">
-                      <label>قيد التحضير</label>
-
+                    <div class="form-check bg-light text-dark px-5 py-1 rounded fw-bold" onclick="toggleRadio(this)">
+                      <input type="radio" name="x" id="preparing1">
+                      <label for="preparing1">قيد التحضير</label>
                     </div>
-                    <div class="  form-check  bg-light text-dark px-5 py-1 rounded fw-bold" onclick="toggleRadio(this)">
-                      <input type="radio" class="ms-1" name="x">
-                      <label> تم التحضير</label>
-
+                    <div class="form-check bg-light text-dark px-5 py-1 rounded fw-bold" onclick="toggleRadio(this)">
+                      <input type="radio" name="x" id="prepared1">
+                      <label for="prepared1">تم التحضير</label>
                     </div>
                   </div>
-                  <button class="btn-details mt-1" data-bs-toggle="modal" data-bs-target="#detailsModal"> تفاصيل
+                  <button class="btn-details mt-1" data-bs-toggle="modal" data-bs-target="#detailsModal">تفاصيل
                     الطلب</button>
                 </div>
               </div>
-
             </div>
+            <div class="col-md-4">
+              <div class="card bg-lightred border my-2">
+                <div class="card-header d-flex justify-content-between">
+                  <p class="fw-bold">
+                    <span>اوردر رقم: 002A</span> - <span>قاعة2</span> - <span>طاولة 35</span>
+                  </p>
+                  <p class="fw-bold">3:45</p>
+                </div>
+                <div class="card-body">
+                  <div class="order-item bg-light p-3 my-2 position-relative">
+                    <div class="clickable-corner" onclick="toggleColor(this)"></div>
+                    <div class="form-check" onclick="toggleCheckbox(this)">
+                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault1">
+                      <label class="form-check-label me-4" for="flexCheckDefault1">
+                        <span>2</span> x <span>كبسة فراخ</span>
+                      </label>
+                    </div>
+                  </div>
+                  <div class="order-item bg-light p-3 my-2 position-relative">
+                    <div class="clickable-corner" onclick="toggleColor(this)"></div>
+                    <div class="form-check" onclick="toggleCheckbox(this)">
+                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault2">
+                      <label class="form-check-label me-4" for="flexCheckDefault2">
+                        <span>2</span> x <span>كبسة فراخ</span>
+                      </label>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-footer">
+                  <div class="d-flex justify-content-between">
+                    <div class="form-check bg-light text-dark px-5 py-1 rounded fw-bold" onclick="toggleRadio(this)">
+                      <input type="radio" name="x" id="preparing1">
+                      <label for="preparing1">قيد التحضير</label>
+                    </div>
+                    <div class="form-check bg-light text-dark px-5 py-1 rounded fw-bold" onclick="toggleRadio(this)">
+                      <input type="radio" name="x" id="prepared1">
+                      <label for="prepared1">تم التحضير</label>
+                    </div>
+                  </div>
+                  <button class="btn-details mt-1" data-bs-toggle="modal" data-bs-target="#detailsModal">تفاصيل
+                    الطلب</button>
+                </div>
+              </div>
+            </div>
+            
 
           </div>
 
@@ -1328,702 +1158,720 @@
 
         <div class="tab-pane fade" id="pills-done" role="tabpanel" aria-labelledby="pills-done-tab">
           <div class="row g-3">
-            <div class="col-md-4 ">
-              <div class="card bg-lightgreen border my-4 ">
+            <div class="col-md-4">
+              <div class="card bg-lightred border my-2">
                 <div class="card-header d-flex justify-content-between">
-                  <p class="fw-bold"> <span>اوردر رقم: 002A </span> - <span>قاعة2</span> - <span>طاولة 35</span></p>
+                  <p class="fw-bold">
+                    <span>اوردر رقم: 002A</span> - <span>قاعة2</span> - <span>طاولة 35</span>
+                  </p>
                   <p class="fw-bold">3:45</p>
                 </div>
                 <div class="card-body">
-                  <div class="order-item bg-light p-3 my-2 position-relative">
-                    <div class="clickable-corner" onclick="toggleColor(this)"></div>
-                    <div class="form-check" onclick="toggleCheckbox(this)">
-                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault">
-                      <label class="form-check-label me-4" for="flexCheckDefault">
-                        <span> 2 </span> x <span>كبسة فراخ</span>
-                      </label>
-                    </div>
-
-                  </div>
-                  <div class="order-item bg-light p-3 my-2 position-relative">
-                    <div class="clickable-corner" onclick="toggleColor(this)"></div>
-                    <div class="form-check" onclick="toggleCheckbox(this)">
-                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault">
-                      <label class="form-check-label me-4" for="flexCheckDefault">
-                        <span> 2 </span> x <span>كبسة فراخ</span>
-                      </label>
-                    </div>
-
-                  </div>
 
                   <div class="order-item bg-light p-3 my-2 position-relative">
                     <div class="clickable-corner" onclick="toggleColor(this)"></div>
                     <div class="form-check" onclick="toggleCheckbox(this)">
-                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault">
-                      <label class="form-check-label me-4" for="flexCheckDefault">
-                        <span> 2 </span> x <span>كبسة فراخ</span>
+                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault1">
+                      <label class="form-check-label me-4" for="flexCheckDefault1">
+                        <span>2</span> x <span>كبسة فراخ</span>
                       </label>
                     </div>
-
                   </div>
-
                   <div class="order-item bg-light p-3 my-2 position-relative">
                     <div class="clickable-corner" onclick="toggleColor(this)"></div>
                     <div class="form-check" onclick="toggleCheckbox(this)">
-                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault">
-                      <label class="form-check-label me-4" for="flexCheckDefault">
-                        <span> 2 </span> x <span>كبسة فراخ</span>
+                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault1">
+                      <label class="form-check-label me-4" for="flexCheckDefault1">
+                        <span>2</span> x <span>كبسة فراخ</span>
                       </label>
                     </div>
-
                   </div>
-
                   <div class="order-item bg-light p-3 my-2 position-relative">
                     <div class="clickable-corner" onclick="toggleColor(this)"></div>
                     <div class="form-check" onclick="toggleCheckbox(this)">
-                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault">
-                      <label class="form-check-label me-4" for="flexCheckDefault">
-                        <span> 2 </span> x <span>كبسة فراخ</span>
+                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault1">
+                      <label class="form-check-label me-4" for="flexCheckDefault1">
+                        <span>2</span> x <span>كبسة فراخ</span>
                       </label>
                     </div>
-
                   </div>
-
+                  <div class="order-item bg-light p-3 my-2 position-relative">
+                    <div class="clickable-corner" onclick="toggleColor(this)"></div>
+                    <div class="form-check" onclick="toggleCheckbox(this)">
+                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault2">
+                      <label class="form-check-label me-4" for="flexCheckDefault2">
+                        <span>2</span> x <span>كبسة فراخ</span>
+                      </label>
+                    </div>
+                  </div>
                 </div>
-                <div class="card-footer ">
-
+                <div class="card-footer">
                   <div class="d-flex justify-content-between">
-                    <div class="  form-check  bg-light text-dark px-5 py-1 rounded fw-bold" onclick="toggleRadio(this)">
-                      <input type="radio" class="ms-1" name="x">
-                      <label>قيد التحضير</label>
-
+                    <div class="form-check bg-light text-dark px-5 py-1 rounded fw-bold" onclick="toggleRadio(this)">
+                      <input type="radio" name="x" id="preparing1">
+                      <label for="preparing1">قيد التحضير</label>
                     </div>
-                    <div class="  form-check  bg-light text-dark px-5 py-1 rounded fw-bold" onclick="toggleRadio(this)">
-                      <input type="radio" class="ms-1" name="x">
-                      <label> تم التحضير</label>
-
+                    <div class="form-check bg-light text-dark px-5 py-1 rounded fw-bold" onclick="toggleRadio(this)">
+                      <input type="radio" name="x" id="prepared1">
+                      <label for="prepared1">تم التحضير</label>
                     </div>
                   </div>
-                  <button class="btn-details mt-1" data-bs-toggle="modal" data-bs-target="#detailsModal"> تفاصيل
+                  <button class="btn-details mt-1" data-bs-toggle="modal" data-bs-target="#detailsModal">تفاصيل
                     الطلب</button>
                 </div>
               </div>
             </div>
             <div class="col-md-4">
-
-              <div class="card bg-lightred border my-4">
+              <div class="card bg-lightgreen border my-2">
                 <div class="card-header d-flex justify-content-between">
-                  <p class="fw-bold"> <span>اوردر رقم: 002A </span> - <span>قاعة2</span> - <span>طاولة 35</span></p>
+                  <p class="fw-bold">
+                    <span>اوردر رقم: 002A</span> - <span>قاعة2</span> - <span>طاولة 35</span>
+                  </p>
                   <p class="fw-bold">3:45</p>
                 </div>
                 <div class="card-body">
                   <div class="order-item bg-light p-3 my-2 position-relative">
                     <div class="clickable-corner" onclick="toggleColor(this)"></div>
                     <div class="form-check" onclick="toggleCheckbox(this)">
-                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault">
-                      <label class="form-check-label me-4" for="flexCheckDefault">
-                        <span> 2 </span> x <span>كبسة فراخ</span>
+                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault3">
+                      <label class="form-check-label me-4" for="flexCheckDefault3">
+                        <span>2</span> x <span>كبسة فراخ</span>
                       </label>
                     </div>
-
                   </div>
                   <div class="order-item bg-light p-3 my-2 position-relative">
                     <div class="clickable-corner" onclick="toggleColor(this)"></div>
                     <div class="form-check" onclick="toggleCheckbox(this)">
-                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault">
-                      <label class="form-check-label me-4" for="flexCheckDefault">
-                        <span> 2 </span> x <span>كبسة فراخ</span>
+                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault1">
+                      <label class="form-check-label me-4" for="flexCheckDefault1">
+                        <span>2</span> x <span>كبسة فراخ</span>
                       </label>
                     </div>
-
                   </div>
-
                   <div class="order-item bg-light p-3 my-2 position-relative">
                     <div class="clickable-corner" onclick="toggleColor(this)"></div>
                     <div class="form-check" onclick="toggleCheckbox(this)">
-                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault">
-                      <label class="form-check-label me-4" for="flexCheckDefault">
-                        <span> 2 </span> x <span>كبسة فراخ</span>
+                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault1">
+                      <label class="form-check-label me-4" for="flexCheckDefault1">
+                        <span>2</span> x <span>كبسة فراخ</span>
                       </label>
                     </div>
-
                   </div>
                 </div>
-                <div class="card-footer ">
-
+                <div class="card-footer">
                   <div class="d-flex justify-content-between">
-                    <div class="  form-check  bg-light text-dark px-5 py-1 rounded fw-bold" onclick="toggleRadio(this)">
-                      <input type="radio" class="ms-1" name="x">
-                      <label>قيد التحضير</label>
-
+                    <div class="form-check bg-light text-dark px-5 py-1 rounded fw-bold" onclick="toggleRadio(this)">
+                      <input type="radio" name="x" id="preparing2">
+                      <label for="preparing2">قيد التحضير</label>
                     </div>
-                    <div class="  form-check  bg-light text-dark px-5 py-1 rounded fw-bold" onclick="toggleRadio(this)">
-                      <input type="radio" class="ms-1" name="x">
-                      <label> تم التحضير</label>
-
+                    <div class="form-check bg-light text-dark px-5 py-1 rounded fw-bold" onclick="toggleRadio(this)">
+                      <input type="radio" name="x" id="prepared2">
+                      <label for="prepared2">تم التحضير</label>
                     </div>
                   </div>
-                  <button class="btn-details mt-1" data-bs-toggle="modal" data-bs-target="#detailsModal"> تفاصيل
-                    الطلب</button>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4 ">
-              <div class="card bg-lightred border my-4">
-                <div class="card-header d-flex justify-content-between">
-                  <p class="fw-bold"> <span>اوردر رقم: 002A </span> - <span>قاعة2</span> - <span>طاولة 35</span></p>
-                  <p class="fw-bold">3:45</p>
-                </div>
-                <div class="card-body">
-                  <div class="order-item bg-light p-3 my-2 position-relative">
-                    <div class="clickable-corner" onclick="toggleColor(this)"></div>
-                    <div class="form-check" onclick="toggleCheckbox(this)">
-                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault">
-                      <label class="form-check-label me-4" for="flexCheckDefault">
-                        <span> 2 </span> x <span>كبسة فراخ</span>
-                      </label>
-                    </div>
-
-                  </div>
-                  <div class="order-item bg-light p-3 my-2 position-relative">
-                    <div class="clickable-corner" onclick="toggleColor(this)"></div>
-                    <div class="form-check" onclick="toggleCheckbox(this)">
-                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault">
-                      <label class="form-check-label me-4" for="flexCheckDefault">
-                        <span> 2 </span> x <span>كبسة فراخ</span>
-                      </label>
-                    </div>
-
-                  </div>
-
-                  <div class="order-item bg-light p-3 my-2 position-relative">
-                    <div class="clickable-corner" onclick="toggleColor(this)"></div>
-                    <div class="form-check" onclick="toggleCheckbox(this)">
-                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault">
-                      <label class="form-check-label me-4" for="flexCheckDefault">
-                        <span> 2 </span> x <span>كبسة فراخ</span>
-                      </label>
-                    </div>
-
-                  </div>
-
-
-
-                </div>
-                <div class="card-footer ">
-
-                  <div class="d-flex justify-content-between">
-                    <div class="  form-check  bg-light text-dark px-5 py-1 rounded fw-bold" onclick="toggleRadio(this)">
-                      <input type="radio" class="ms-1" name="x">
-                      <label>قيد التحضير</label>
-
-                    </div>
-                    <div class="  form-check  bg-light text-dark px-5 py-1 rounded fw-bold" onclick="toggleRadio(this)">
-                      <input type="radio" class="ms-1" name="x">
-                      <label> تم التحضير</label>
-
-                    </div>
-                  </div>
-                  <button class="btn-details mt-1" data-bs-toggle="modal" data-bs-target="#detailsModal"> تفاصيل
+                  <button class="btn-details mt-1" data-bs-toggle="modal" data-bs-target="#detailsModal">تفاصيل
                     الطلب</button>
                 </div>
               </div>
             </div>
             <div class="col-md-4">
-              <div class="card bg-lightred border my-4">
+              <div class="card bg-lightred border my-2">
                 <div class="card-header d-flex justify-content-between">
-                  <p class="fw-bold"> <span>اوردر رقم: 002A </span> - <span>قاعة2</span> - <span>طاولة 35</span></p>
+                  <p class="fw-bold">
+                    <span>اوردر رقم: 002A</span> - <span>قاعة2</span> - <span>طاولة 35</span>
+                  </p>
                   <p class="fw-bold">3:45</p>
                 </div>
                 <div class="card-body">
                   <div class="order-item bg-light p-3 my-2 position-relative">
                     <div class="clickable-corner" onclick="toggleColor(this)"></div>
                     <div class="form-check" onclick="toggleCheckbox(this)">
-                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault">
-                      <label class="form-check-label me-4" for="flexCheckDefault">
-                        <span> 2 </span> x <span>كبسة فراخ</span>
+                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault1">
+                      <label class="form-check-label me-4" for="flexCheckDefault1">
+                        <span>2</span> x <span>كبسة فراخ</span>
                       </label>
                     </div>
-
                   </div>
-
                   <div class="order-item bg-light p-3 my-2 position-relative">
                     <div class="clickable-corner" onclick="toggleColor(this)"></div>
                     <div class="form-check" onclick="toggleCheckbox(this)">
-                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault">
-                      <label class="form-check-label me-4" for="flexCheckDefault">
-                        <span> 2 </span> x <span>كبسة فراخ</span>
+                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault1">
+                      <label class="form-check-label me-4" for="flexCheckDefault1">
+                        <span>2</span> x <span>كبسة فراخ</span>
                       </label>
                     </div>
-
                   </div>
-
                   <div class="order-item bg-light p-3 my-2 position-relative">
                     <div class="clickable-corner" onclick="toggleColor(this)"></div>
                     <div class="form-check" onclick="toggleCheckbox(this)">
-                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault">
-                      <label class="form-check-label me-4" for="flexCheckDefault">
-                        <span> 2 </span> x <span>كبسة فراخ</span>
+                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault2">
+                      <label class="form-check-label me-4" for="flexCheckDefault2">
+                        <span>2</span> x <span>كبسة فراخ</span>
                       </label>
                     </div>
-
                   </div>
-
-
-
                 </div>
-                <div class="card-footer ">
-
+                <div class="card-footer">
                   <div class="d-flex justify-content-between">
-                    <div class="  form-check  bg-light text-dark px-5 py-1 rounded fw-bold" onclick="toggleRadio(this)">
-                      <input type="radio" class="ms-1" name="x">
-                      <label>قيد التحضير</label>
-
+                    <div class="form-check bg-light text-dark px-5 py-1 rounded fw-bold" onclick="toggleRadio(this)">
+                      <input type="radio" name="x" id="preparing1">
+                      <label for="preparing1">قيد التحضير</label>
                     </div>
-                    <div class="  form-check  bg-light text-dark px-5 py-1 rounded fw-bold" onclick="toggleRadio(this)">
-                      <input type="radio" class="ms-1" name="x">
-                      <label> تم التحضير</label>
-
+                    <div class="form-check bg-light text-dark px-5 py-1 rounded fw-bold" onclick="toggleRadio(this)">
+                      <input type="radio" name="x" id="prepared1">
+                      <label for="prepared1">تم التحضير</label>
                     </div>
                   </div>
-                  <button class="btn-details mt-1" data-bs-toggle="modal" data-bs-target="#detailsModal"> تفاصيل
+                  <button class="btn-details mt-1" data-bs-toggle="modal" data-bs-target="#detailsModal">تفاصيل
                     الطلب</button>
                 </div>
               </div>
             </div>
-            <div class="col-md-4 ">
-              <div class="card bg-lightgreen border my-4 ">
+            <div class="col-md-4">
+              <div class="card bg-lightgreen border my-2">
                 <div class="card-header d-flex justify-content-between">
-                  <p class="fw-bold"> <span>اوردر رقم: 002A </span> - <span>قاعة2</span> - <span>طاولة 35</span></p>
+                  <p class="fw-bold">
+                    <span>اوردر رقم: 002A</span> - <span>قاعة2</span> - <span>طاولة 35</span>
+                  </p>
                   <p class="fw-bold">3:45</p>
                 </div>
                 <div class="card-body">
                   <div class="order-item bg-light p-3 my-2 position-relative">
                     <div class="clickable-corner" onclick="toggleColor(this)"></div>
                     <div class="form-check" onclick="toggleCheckbox(this)">
-                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault">
-                      <label class="form-check-label me-4" for="flexCheckDefault">
-                        <span> 2 </span> x <span>كبسة فراخ</span>
+                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault1">
+                      <label class="form-check-label me-4" for="flexCheckDefault1">
+                        <span>2</span> x <span>كبسة فراخ</span>
                       </label>
                     </div>
-
                   </div>
                   <div class="order-item bg-light p-3 my-2 position-relative">
                     <div class="clickable-corner" onclick="toggleColor(this)"></div>
                     <div class="form-check" onclick="toggleCheckbox(this)">
-                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault">
-                      <label class="form-check-label me-4" for="flexCheckDefault">
-                        <span> 2 </span> x <span>كبسة فراخ</span>
+                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault2">
+                      <label class="form-check-label me-4" for="flexCheckDefault2">
+                        <span>2</span> x <span>كبسة فراخ</span>
                       </label>
                     </div>
-
                   </div>
-
                   <div class="order-item bg-light p-3 my-2 position-relative">
                     <div class="clickable-corner" onclick="toggleColor(this)"></div>
                     <div class="form-check" onclick="toggleCheckbox(this)">
-                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault">
-                      <label class="form-check-label me-4" for="flexCheckDefault">
-                        <span> 2 </span> x <span>كبسة فراخ</span>
+                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault2">
+                      <label class="form-check-label me-4" for="flexCheckDefault2">
+                        <span>2</span> x <span>كبسة فراخ</span>
                       </label>
                     </div>
-
                   </div>
-
                   <div class="order-item bg-light p-3 my-2 position-relative">
                     <div class="clickable-corner" onclick="toggleColor(this)"></div>
                     <div class="form-check" onclick="toggleCheckbox(this)">
-                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault">
-                      <label class="form-check-label me-4" for="flexCheckDefault">
-                        <span> 2 </span> x <span>كبسة فراخ</span>
+                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault2">
+                      <label class="form-check-label me-4" for="flexCheckDefault2">
+                        <span>2</span> x <span>كبسة فراخ</span>
                       </label>
                     </div>
-
                   </div>
-
-                  <div class="order-item bg-light p-3 my-2 position-relative">
-                    <div class="clickable-corner" onclick="toggleColor(this)"></div>
-                    <div class="form-check" onclick="toggleCheckbox(this)">
-                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault">
-                      <label class="form-check-label me-4" for="flexCheckDefault">
-                        <span> 2 </span> x <span>كبسة فراخ</span>
-                      </label>
-                    </div>
-
-                  </div>
-
-
                 </div>
-                <div class="card-footer ">
-
+                <div class="card-footer">
                   <div class="d-flex justify-content-between">
-                    <div class="  form-check  bg-light text-dark px-5 py-1 rounded fw-bold" onclick="toggleRadio(this)">
-                      <input type="radio" class="ms-1" name="x">
-                      <label>قيد التحضير</label>
-
+                    <div class="form-check bg-light text-dark px-5 py-1 rounded fw-bold" onclick="toggleRadio(this)">
+                      <input type="radio" name="x" id="preparing1">
+                      <label for="preparing1">قيد التحضير</label>
                     </div>
-                    <div class="  form-check  bg-light text-dark px-5 py-1 rounded fw-bold" onclick="toggleRadio(this)">
-                      <input type="radio" class="ms-1" name="x">
-                      <label> تم التحضير</label>
-
+                    <div class="form-check bg-light text-dark px-5 py-1 rounded fw-bold" onclick="toggleRadio(this)">
+                      <input type="radio" name="x" id="prepared1">
+                      <label for="prepared1">تم التحضير</label>
                     </div>
                   </div>
-                  <button class="btn-details mt-1" data-bs-toggle="modal" data-bs-target="#detailsModal"> تفاصيل
+                  <button class="btn-details mt-1" data-bs-toggle="modal" data-bs-target="#detailsModal">تفاصيل
                     الطلب</button>
                 </div>
               </div>
-
+            </div>
+            <div class="col-md-4">
+              <div class="card bg-lightred border my-2">
+                <div class="card-header d-flex justify-content-between">
+                  <p class="fw-bold">
+                    <span>اوردر رقم: 002A</span> - <span>قاعة2</span> - <span>طاولة 35</span>
+                  </p>
+                  <p class="fw-bold">3:45</p>
+                </div>
+                <div class="card-body">
+                  <div class="order-item bg-light p-3 my-2 position-relative">
+                    <div class="clickable-corner" onclick="toggleColor(this)"></div>
+                    <div class="form-check" onclick="toggleCheckbox(this)">
+                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault1">
+                      <label class="form-check-label me-4" for="flexCheckDefault1">
+                        <span>2</span> x <span>كبسة فراخ</span>
+                      </label>
+                    </div>
+                  </div>
+                  <div class="order-item bg-light p-3 my-2 position-relative">
+                    <div class="clickable-corner" onclick="toggleColor(this)"></div>
+                    <div class="form-check" onclick="toggleCheckbox(this)">
+                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault2">
+                      <label class="form-check-label me-4" for="flexCheckDefault2">
+                        <span>2</span> x <span>كبسة فراخ</span>
+                      </label>
+                    </div>
+                  </div>
+                  <div class="order-item bg-light p-3 my-2 position-relative">
+                    <div class="clickable-corner" onclick="toggleColor(this)"></div>
+                    <div class="form-check" onclick="toggleCheckbox(this)">
+                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault2">
+                      <label class="form-check-label me-4" for="flexCheckDefault2">
+                        <span>2</span> x <span>كبسة فراخ</span>
+                      </label>
+                    </div>
+                  </div>
+                  <div class="order-item bg-light p-3 my-2 position-relative">
+                    <div class="clickable-corner" onclick="toggleColor(this)"></div>
+                    <div class="form-check" onclick="toggleCheckbox(this)">
+                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault2">
+                      <label class="form-check-label me-4" for="flexCheckDefault2">
+                        <span>2</span> x <span>كبسة فراخ</span>
+                      </label>
+                    </div>
+                  </div>
+                  <div class="order-item bg-light p-3 my-2 position-relative">
+                    <div class="clickable-corner" onclick="toggleColor(this)"></div>
+                    <div class="form-check" onclick="toggleCheckbox(this)">
+                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault2">
+                      <label class="form-check-label me-4" for="flexCheckDefault2">
+                        <span>2</span> x <span>كبسة فراخ</span>
+                      </label>
+                    </div>
+                  </div>
+                  <div class="order-item bg-light p-3 my-2 position-relative">
+                    <div class="clickable-corner" onclick="toggleColor(this)"></div>
+                    <div class="form-check" onclick="toggleCheckbox(this)">
+                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault2">
+                      <label class="form-check-label me-4" for="flexCheckDefault2">
+                        <span>2</span> x <span>كبسة فراخ</span>
+                      </label>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-footer">
+                  <div class="d-flex justify-content-between">
+                    <div class="form-check bg-light text-dark px-5 py-1 rounded fw-bold" onclick="toggleRadio(this)">
+                      <input type="radio" name="x" id="preparing1">
+                      <label for="preparing1">قيد التحضير</label>
+                    </div>
+                    <div class="form-check bg-light text-dark px-5 py-1 rounded fw-bold" onclick="toggleRadio(this)">
+                      <input type="radio" name="x" id="prepared1">
+                      <label for="prepared1">تم التحضير</label>
+                    </div>
+                  </div>
+                  <button class="btn-details mt-1" data-bs-toggle="modal" data-bs-target="#detailsModal">تفاصيل
+                    الطلب</button>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card bg-lightred border my-2">
+                <div class="card-header d-flex justify-content-between">
+                  <p class="fw-bold">
+                    <span>اوردر رقم: 002A</span> - <span>قاعة2</span> - <span>طاولة 35</span>
+                  </p>
+                  <p class="fw-bold">3:45</p>
+                </div>
+                <div class="card-body">
+                  <div class="order-item bg-light p-3 my-2 position-relative">
+                    <div class="clickable-corner" onclick="toggleColor(this)"></div>
+                    <div class="form-check" onclick="toggleCheckbox(this)">
+                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault1">
+                      <label class="form-check-label me-4" for="flexCheckDefault1">
+                        <span>2</span> x <span>كبسة فراخ</span>
+                      </label>
+                    </div>
+                  </div>
+                  <div class="order-item bg-light p-3 my-2 position-relative">
+                    <div class="clickable-corner" onclick="toggleColor(this)"></div>
+                    <div class="form-check" onclick="toggleCheckbox(this)">
+                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault2">
+                      <label class="form-check-label me-4" for="flexCheckDefault2">
+                        <span>2</span> x <span>كبسة فراخ</span>
+                      </label>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-footer">
+                  <div class="d-flex justify-content-between">
+                    <div class="form-check bg-light text-dark px-5 py-1 rounded fw-bold" onclick="toggleRadio(this)">
+                      <input type="radio" name="x" id="preparing1">
+                      <label for="preparing1">قيد التحضير</label>
+                    </div>
+                    <div class="form-check bg-light text-dark px-5 py-1 rounded fw-bold" onclick="toggleRadio(this)">
+                      <input type="radio" name="x" id="prepared1">
+                      <label for="prepared1">تم التحضير</label>
+                    </div>
+                  </div>
+                  <button class="btn-details mt-1" data-bs-toggle="modal" data-bs-target="#detailsModal">تفاصيل
+                    الطلب</button>
+                </div>
+              </div>
             </div>
 
           </div>
         </div>
         <div class="tab-pane fade" id="pills-notdone" role="tabpanel" aria-labelledby="pills-notdone-tab">
           <div class="row g-3">
-            <div class="col-md-4 ">
-              <div class="card bg-lightgreen border my-4 ">
+            <div class="col-md-4">
+              <div class="card bg-lightred border my-2">
                 <div class="card-header d-flex justify-content-between">
-                  <p class="fw-bold"> <span>اوردر رقم: 002A </span> - <span>قاعة2</span> - <span>طاولة 35</span></p>
+                  <p class="fw-bold">
+                    <span>اوردر رقم: 002A</span> - <span>قاعة2</span> - <span>طاولة 35</span>
+                  </p>
                   <p class="fw-bold">3:45</p>
                 </div>
                 <div class="card-body">
-                  <div class="order-item bg-light p-3 my-2 position-relative">
-                    <div class="clickable-corner" onclick="toggleColor(this)"></div>
-                    <div class="form-check" onclick="toggleCheckbox(this)">
-                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault">
-                      <label class="form-check-label me-4" for="flexCheckDefault">
-                        <span> 2 </span> x <span>كبسة فراخ</span>
-                      </label>
-                    </div>
-
-                  </div>
-                  <div class="order-item bg-light p-3 my-2 position-relative">
-                    <div class="clickable-corner" onclick="toggleColor(this)"></div>
-                    <div class="form-check" onclick="toggleCheckbox(this)">
-                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault">
-                      <label class="form-check-label me-4" for="flexCheckDefault">
-                        <span> 2 </span> x <span>كبسة فراخ</span>
-                      </label>
-                    </div>
-
-                  </div>
 
                   <div class="order-item bg-light p-3 my-2 position-relative">
                     <div class="clickable-corner" onclick="toggleColor(this)"></div>
                     <div class="form-check" onclick="toggleCheckbox(this)">
-                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault">
-                      <label class="form-check-label me-4" for="flexCheckDefault">
-                        <span> 2 </span> x <span>كبسة فراخ</span>
+                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault1">
+                      <label class="form-check-label me-4" for="flexCheckDefault1">
+                        <span>2</span> x <span>كبسة فراخ</span>
                       </label>
                     </div>
-
                   </div>
-
                   <div class="order-item bg-light p-3 my-2 position-relative">
                     <div class="clickable-corner" onclick="toggleColor(this)"></div>
                     <div class="form-check" onclick="toggleCheckbox(this)">
-                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault">
-                      <label class="form-check-label me-4" for="flexCheckDefault">
-                        <span> 2 </span> x <span>كبسة فراخ</span>
+                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault1">
+                      <label class="form-check-label me-4" for="flexCheckDefault1">
+                        <span>2</span> x <span>كبسة فراخ</span>
                       </label>
                     </div>
-
                   </div>
-
                   <div class="order-item bg-light p-3 my-2 position-relative">
                     <div class="clickable-corner" onclick="toggleColor(this)"></div>
                     <div class="form-check" onclick="toggleCheckbox(this)">
-                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault">
-                      <label class="form-check-label me-4" for="flexCheckDefault">
-                        <span> 2 </span> x <span>كبسة فراخ</span>
+                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault1">
+                      <label class="form-check-label me-4" for="flexCheckDefault1">
+                        <span>2</span> x <span>كبسة فراخ</span>
                       </label>
                     </div>
-
                   </div>
-
+                  <div class="order-item bg-light p-3 my-2 position-relative">
+                    <div class="clickable-corner" onclick="toggleColor(this)"></div>
+                    <div class="form-check" onclick="toggleCheckbox(this)">
+                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault2">
+                      <label class="form-check-label me-4" for="flexCheckDefault2">
+                        <span>2</span> x <span>كبسة فراخ</span>
+                      </label>
+                    </div>
+                  </div>
                 </div>
-                <div class="card-footer ">
-
+                <div class="card-footer">
                   <div class="d-flex justify-content-between">
-                    <div class="  form-check  bg-light text-dark px-5 py-1 rounded fw-bold" onclick="toggleRadio(this)">
-                      <input type="radio" class="ms-1" name="x">
-                      <label>قيد التحضير</label>
-
+                    <div class="form-check bg-light text-dark px-5 py-1 rounded fw-bold" onclick="toggleRadio(this)">
+                      <input type="radio" name="x" id="preparing1">
+                      <label for="preparing1">قيد التحضير</label>
                     </div>
-                    <div class="  form-check  bg-light text-dark px-5 py-1 rounded fw-bold" onclick="toggleRadio(this)">
-                      <input type="radio" class="ms-1" name="x">
-                      <label> تم التحضير</label>
-
+                    <div class="form-check bg-light text-dark px-5 py-1 rounded fw-bold" onclick="toggleRadio(this)">
+                      <input type="radio" name="x" id="prepared1">
+                      <label for="prepared1">تم التحضير</label>
                     </div>
                   </div>
-                  <button class="btn-details mt-1" data-bs-toggle="modal" data-bs-target="#detailsModal"> تفاصيل
+                  <button class="btn-details mt-1" data-bs-toggle="modal" data-bs-target="#detailsModal">تفاصيل
                     الطلب</button>
                 </div>
               </div>
             </div>
             <div class="col-md-4">
-
-              <div class="card bg-lightred border my-4">
+              <div class="card bg-lightgreen border my-2">
                 <div class="card-header d-flex justify-content-between">
-                  <p class="fw-bold"> <span>اوردر رقم: 002A </span> - <span>قاعة2</span> - <span>طاولة 35</span></p>
+                  <p class="fw-bold">
+                    <span>اوردر رقم: 002A</span> - <span>قاعة2</span> - <span>طاولة 35</span>
+                  </p>
                   <p class="fw-bold">3:45</p>
                 </div>
                 <div class="card-body">
                   <div class="order-item bg-light p-3 my-2 position-relative">
                     <div class="clickable-corner" onclick="toggleColor(this)"></div>
                     <div class="form-check" onclick="toggleCheckbox(this)">
-                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault">
-                      <label class="form-check-label me-4" for="flexCheckDefault">
-                        <span> 2 </span> x <span>كبسة فراخ</span>
+                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault3">
+                      <label class="form-check-label me-4" for="flexCheckDefault3">
+                        <span>2</span> x <span>كبسة فراخ</span>
                       </label>
                     </div>
-
                   </div>
                   <div class="order-item bg-light p-3 my-2 position-relative">
                     <div class="clickable-corner" onclick="toggleColor(this)"></div>
                     <div class="form-check" onclick="toggleCheckbox(this)">
-                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault">
-                      <label class="form-check-label me-4" for="flexCheckDefault">
-                        <span> 2 </span> x <span>كبسة فراخ</span>
+                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault1">
+                      <label class="form-check-label me-4" for="flexCheckDefault1">
+                        <span>2</span> x <span>كبسة فراخ</span>
                       </label>
                     </div>
-
                   </div>
-
                   <div class="order-item bg-light p-3 my-2 position-relative">
                     <div class="clickable-corner" onclick="toggleColor(this)"></div>
                     <div class="form-check" onclick="toggleCheckbox(this)">
-                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault">
-                      <label class="form-check-label me-4" for="flexCheckDefault">
-                        <span> 2 </span> x <span>كبسة فراخ</span>
+                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault1">
+                      <label class="form-check-label me-4" for="flexCheckDefault1">
+                        <span>2</span> x <span>كبسة فراخ</span>
                       </label>
                     </div>
-
                   </div>
                 </div>
-                <div class="card-footer ">
-
+                <div class="card-footer">
                   <div class="d-flex justify-content-between">
-                    <div class="  form-check  bg-light text-dark px-5 py-1 rounded fw-bold" onclick="toggleRadio(this)">
-                      <input type="radio" class="ms-1" name="x">
-                      <label>قيد التحضير</label>
-
+                    <div class="form-check bg-light text-dark px-5 py-1 rounded fw-bold" onclick="toggleRadio(this)">
+                      <input type="radio" name="x" id="preparing2">
+                      <label for="preparing2">قيد التحضير</label>
                     </div>
-                    <div class="  form-check  bg-light text-dark px-5 py-1 rounded fw-bold" onclick="toggleRadio(this)">
-                      <input type="radio" class="ms-1" name="x">
-                      <label> تم التحضير</label>
-
+                    <div class="form-check bg-light text-dark px-5 py-1 rounded fw-bold" onclick="toggleRadio(this)">
+                      <input type="radio" name="x" id="prepared2">
+                      <label for="prepared2">تم التحضير</label>
                     </div>
                   </div>
-                  <button class="btn-details mt-1" data-bs-toggle="modal" data-bs-target="#detailsModal"> تفاصيل
-                    الطلب</button>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4 ">
-              <div class="card bg-lightred border my-4">
-                <div class="card-header d-flex justify-content-between">
-                  <p class="fw-bold"> <span>اوردر رقم: 002A </span> - <span>قاعة2</span> - <span>طاولة 35</span></p>
-                  <p class="fw-bold">3:45</p>
-                </div>
-                <div class="card-body">
-                  <div class="order-item bg-light p-3 my-2 position-relative">
-                    <div class="clickable-corner" onclick="toggleColor(this)"></div>
-                    <div class="form-check" onclick="toggleCheckbox(this)">
-                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault">
-                      <label class="form-check-label me-4" for="flexCheckDefault">
-                        <span> 2 </span> x <span>كبسة فراخ</span>
-                      </label>
-                    </div>
-
-                  </div>
-                  <div class="order-item bg-light p-3 my-2 position-relative">
-                    <div class="clickable-corner" onclick="toggleColor(this)"></div>
-                    <div class="form-check" onclick="toggleCheckbox(this)">
-                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault">
-                      <label class="form-check-label me-4" for="flexCheckDefault">
-                        <span> 2 </span> x <span>كبسة فراخ</span>
-                      </label>
-                    </div>
-
-                  </div>
-
-                  <div class="order-item bg-light p-3 my-2 position-relative">
-                    <div class="clickable-corner" onclick="toggleColor(this)"></div>
-                    <div class="form-check" onclick="toggleCheckbox(this)">
-                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault">
-                      <label class="form-check-label me-4" for="flexCheckDefault">
-                        <span> 2 </span> x <span>كبسة فراخ</span>
-                      </label>
-                    </div>
-
-                  </div>
-
-
-
-                </div>
-                <div class="card-footer ">
-
-                  <div class="d-flex justify-content-between">
-                    <div class="  form-check  bg-light text-dark px-5 py-1 rounded fw-bold" onclick="toggleRadio(this)">
-                      <input type="radio" class="ms-1" name="x">
-                      <label>قيد التحضير</label>
-
-                    </div>
-                    <div class="  form-check  bg-light text-dark px-5 py-1 rounded fw-bold" onclick="toggleRadio(this)">
-                      <input type="radio" class="ms-1" name="x">
-                      <label> تم التحضير</label>
-
-                    </div>
-                  </div>
-                  <button class="btn-details mt-1" data-bs-toggle="modal" data-bs-target="#detailsModal"> تفاصيل
+                  <button class="btn-details mt-1" data-bs-toggle="modal" data-bs-target="#detailsModal">تفاصيل
                     الطلب</button>
                 </div>
               </div>
             </div>
             <div class="col-md-4">
-              <div class="card bg-lightred border my-4">
+              <div class="card bg-lightred border my-2">
                 <div class="card-header d-flex justify-content-between">
-                  <p class="fw-bold"> <span>اوردر رقم: 002A </span> - <span>قاعة2</span> - <span>طاولة 35</span></p>
+                  <p class="fw-bold">
+                    <span>اوردر رقم: 002A</span> - <span>قاعة2</span> - <span>طاولة 35</span>
+                  </p>
                   <p class="fw-bold">3:45</p>
                 </div>
                 <div class="card-body">
                   <div class="order-item bg-light p-3 my-2 position-relative">
                     <div class="clickable-corner" onclick="toggleColor(this)"></div>
                     <div class="form-check" onclick="toggleCheckbox(this)">
-                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault">
-                      <label class="form-check-label me-4" for="flexCheckDefault">
-                        <span> 2 </span> x <span>كبسة فراخ</span>
+                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault1">
+                      <label class="form-check-label me-4" for="flexCheckDefault1">
+                        <span>2</span> x <span>كبسة فراخ</span>
                       </label>
                     </div>
-
                   </div>
-
                   <div class="order-item bg-light p-3 my-2 position-relative">
                     <div class="clickable-corner" onclick="toggleColor(this)"></div>
                     <div class="form-check" onclick="toggleCheckbox(this)">
-                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault">
-                      <label class="form-check-label me-4" for="flexCheckDefault">
-                        <span> 2 </span> x <span>كبسة فراخ</span>
+                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault1">
+                      <label class="form-check-label me-4" for="flexCheckDefault1">
+                        <span>2</span> x <span>كبسة فراخ</span>
                       </label>
                     </div>
-
                   </div>
-
                   <div class="order-item bg-light p-3 my-2 position-relative">
                     <div class="clickable-corner" onclick="toggleColor(this)"></div>
                     <div class="form-check" onclick="toggleCheckbox(this)">
-                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault">
-                      <label class="form-check-label me-4" for="flexCheckDefault">
-                        <span> 2 </span> x <span>كبسة فراخ</span>
+                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault2">
+                      <label class="form-check-label me-4" for="flexCheckDefault2">
+                        <span>2</span> x <span>كبسة فراخ</span>
                       </label>
                     </div>
-
                   </div>
-
-
-
                 </div>
-                <div class="card-footer ">
-
+                <div class="card-footer">
                   <div class="d-flex justify-content-between">
-                    <div class="  form-check  bg-light text-dark px-5 py-1 rounded fw-bold" onclick="toggleRadio(this)">
-                      <input type="radio" class="ms-1" name="x">
-                      <label>قيد التحضير</label>
-
+                    <div class="form-check bg-light text-dark px-5 py-1 rounded fw-bold" onclick="toggleRadio(this)">
+                      <input type="radio" name="x" id="preparing1">
+                      <label for="preparing1">قيد التحضير</label>
                     </div>
-                    <div class="  form-check  bg-light text-dark px-5 py-1 rounded fw-bold" onclick="toggleRadio(this)">
-                      <input type="radio" class="ms-1" name="x">
-                      <label> تم التحضير</label>
-
+                    <div class="form-check bg-light text-dark px-5 py-1 rounded fw-bold" onclick="toggleRadio(this)">
+                      <input type="radio" name="x" id="prepared1">
+                      <label for="prepared1">تم التحضير</label>
                     </div>
                   </div>
-                  <button class="btn-details mt-1" data-bs-toggle="modal" data-bs-target="#detailsModal"> تفاصيل
+                  <button class="btn-details mt-1" data-bs-toggle="modal" data-bs-target="#detailsModal">تفاصيل
                     الطلب</button>
                 </div>
               </div>
             </div>
-            <div class="col-md-4 ">
-              <div class="card bg-lightgreen border my-4 ">
+            <div class="col-md-4">
+              <div class="card bg-lightgreen border my-2">
                 <div class="card-header d-flex justify-content-between">
-                  <p class="fw-bold"> <span>اوردر رقم: 002A </span> - <span>قاعة2</span> - <span>طاولة 35</span></p>
+                  <p class="fw-bold">
+                    <span>اوردر رقم: 002A</span> - <span>قاعة2</span> - <span>طاولة 35</span>
+                  </p>
                   <p class="fw-bold">3:45</p>
                 </div>
                 <div class="card-body">
                   <div class="order-item bg-light p-3 my-2 position-relative">
                     <div class="clickable-corner" onclick="toggleColor(this)"></div>
                     <div class="form-check" onclick="toggleCheckbox(this)">
-                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault">
-                      <label class="form-check-label me-4" for="flexCheckDefault">
-                        <span> 2 </span> x <span>كبسة فراخ</span>
+                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault1">
+                      <label class="form-check-label me-4" for="flexCheckDefault1">
+                        <span>2</span> x <span>كبسة فراخ</span>
                       </label>
                     </div>
-
                   </div>
                   <div class="order-item bg-light p-3 my-2 position-relative">
                     <div class="clickable-corner" onclick="toggleColor(this)"></div>
                     <div class="form-check" onclick="toggleCheckbox(this)">
-                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault">
-                      <label class="form-check-label me-4" for="flexCheckDefault">
-                        <span> 2 </span> x <span>كبسة فراخ</span>
+                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault2">
+                      <label class="form-check-label me-4" for="flexCheckDefault2">
+                        <span>2</span> x <span>كبسة فراخ</span>
                       </label>
                     </div>
-
                   </div>
-
                   <div class="order-item bg-light p-3 my-2 position-relative">
                     <div class="clickable-corner" onclick="toggleColor(this)"></div>
                     <div class="form-check" onclick="toggleCheckbox(this)">
-                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault">
-                      <label class="form-check-label me-4" for="flexCheckDefault">
-                        <span> 2 </span> x <span>كبسة فراخ</span>
+                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault2">
+                      <label class="form-check-label me-4" for="flexCheckDefault2">
+                        <span>2</span> x <span>كبسة فراخ</span>
                       </label>
                     </div>
-
                   </div>
-
                   <div class="order-item bg-light p-3 my-2 position-relative">
                     <div class="clickable-corner" onclick="toggleColor(this)"></div>
                     <div class="form-check" onclick="toggleCheckbox(this)">
-                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault">
-                      <label class="form-check-label me-4" for="flexCheckDefault">
-                        <span> 2 </span> x <span>كبسة فراخ</span>
+                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault2">
+                      <label class="form-check-label me-4" for="flexCheckDefault2">
+                        <span>2</span> x <span>كبسة فراخ</span>
                       </label>
                     </div>
-
                   </div>
-
-                  <div class="order-item bg-light p-3 my-2 position-relative">
-                    <div class="clickable-corner" onclick="toggleColor(this)"></div>
-                    <div class="form-check" onclick="toggleCheckbox(this)">
-                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault">
-                      <label class="form-check-label me-4" for="flexCheckDefault">
-                        <span> 2 </span> x <span>كبسة فراخ</span>
-                      </label>
-                    </div>
-
-                  </div>
-
-
                 </div>
-                <div class="card-footer ">
-
+                <div class="card-footer">
                   <div class="d-flex justify-content-between">
-                    <div class="  form-check  bg-light text-dark px-5 py-1 rounded fw-bold" onclick="toggleRadio(this)">
-                      <input type="radio" class="ms-1" name="x">
-                      <label>قيد التحضير</label>
-
+                    <div class="form-check bg-light text-dark px-5 py-1 rounded fw-bold" onclick="toggleRadio(this)">
+                      <input type="radio" name="x" id="preparing1">
+                      <label for="preparing1">قيد التحضير</label>
                     </div>
-                    <div class="  form-check  bg-light text-dark px-5 py-1 rounded fw-bold" onclick="toggleRadio(this)">
-                      <input type="radio" class="ms-1" name="x">
-                      <label> تم التحضير</label>
-
+                    <div class="form-check bg-light text-dark px-5 py-1 rounded fw-bold" onclick="toggleRadio(this)">
+                      <input type="radio" name="x" id="prepared1">
+                      <label for="prepared1">تم التحضير</label>
                     </div>
                   </div>
-                  <button class="btn-details mt-1" data-bs-toggle="modal" data-bs-target="#detailsModal"> تفاصيل
+                  <button class="btn-details mt-1" data-bs-toggle="modal" data-bs-target="#detailsModal">تفاصيل
                     الطلب</button>
                 </div>
               </div>
-
+            </div>
+            <div class="col-md-4">
+              <div class="card bg-lightred border my-2">
+                <div class="card-header d-flex justify-content-between">
+                  <p class="fw-bold">
+                    <span>اوردر رقم: 002A</span> - <span>قاعة2</span> - <span>طاولة 35</span>
+                  </p>
+                  <p class="fw-bold">3:45</p>
+                </div>
+                <div class="card-body">
+                  <div class="order-item bg-light p-3 my-2 position-relative">
+                    <div class="clickable-corner" onclick="toggleColor(this)"></div>
+                    <div class="form-check" onclick="toggleCheckbox(this)">
+                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault1">
+                      <label class="form-check-label me-4" for="flexCheckDefault1">
+                        <span>2</span> x <span>كبسة فراخ</span>
+                      </label>
+                    </div>
+                  </div>
+                  <div class="order-item bg-light p-3 my-2 position-relative">
+                    <div class="clickable-corner" onclick="toggleColor(this)"></div>
+                    <div class="form-check" onclick="toggleCheckbox(this)">
+                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault2">
+                      <label class="form-check-label me-4" for="flexCheckDefault2">
+                        <span>2</span> x <span>كبسة فراخ</span>
+                      </label>
+                    </div>
+                  </div>
+                  <div class="order-item bg-light p-3 my-2 position-relative">
+                    <div class="clickable-corner" onclick="toggleColor(this)"></div>
+                    <div class="form-check" onclick="toggleCheckbox(this)">
+                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault2">
+                      <label class="form-check-label me-4" for="flexCheckDefault2">
+                        <span>2</span> x <span>كبسة فراخ</span>
+                      </label>
+                    </div>
+                  </div>
+                  <div class="order-item bg-light p-3 my-2 position-relative">
+                    <div class="clickable-corner" onclick="toggleColor(this)"></div>
+                    <div class="form-check" onclick="toggleCheckbox(this)">
+                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault2">
+                      <label class="form-check-label me-4" for="flexCheckDefault2">
+                        <span>2</span> x <span>كبسة فراخ</span>
+                      </label>
+                    </div>
+                  </div>
+                  <div class="order-item bg-light p-3 my-2 position-relative">
+                    <div class="clickable-corner" onclick="toggleColor(this)"></div>
+                    <div class="form-check" onclick="toggleCheckbox(this)">
+                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault2">
+                      <label class="form-check-label me-4" for="flexCheckDefault2">
+                        <span>2</span> x <span>كبسة فراخ</span>
+                      </label>
+                    </div>
+                  </div>
+                  <div class="order-item bg-light p-3 my-2 position-relative">
+                    <div class="clickable-corner" onclick="toggleColor(this)"></div>
+                    <div class="form-check" onclick="toggleCheckbox(this)">
+                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault2">
+                      <label class="form-check-label me-4" for="flexCheckDefault2">
+                        <span>2</span> x <span>كبسة فراخ</span>
+                      </label>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-footer">
+                  <div class="d-flex justify-content-between">
+                    <div class="form-check bg-light text-dark px-5 py-1 rounded fw-bold" onclick="toggleRadio(this)">
+                      <input type="radio" name="x" id="preparing1">
+                      <label for="preparing1">قيد التحضير</label>
+                    </div>
+                    <div class="form-check bg-light text-dark px-5 py-1 rounded fw-bold" onclick="toggleRadio(this)">
+                      <input type="radio" name="x" id="prepared1">
+                      <label for="prepared1">تم التحضير</label>
+                    </div>
+                  </div>
+                  <button class="btn-details mt-1" data-bs-toggle="modal" data-bs-target="#detailsModal">تفاصيل
+                    الطلب</button>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card bg-lightred border my-2">
+                <div class="card-header d-flex justify-content-between">
+                  <p class="fw-bold">
+                    <span>اوردر رقم: 002A</span> - <span>قاعة2</span> - <span>طاولة 35</span>
+                  </p>
+                  <p class="fw-bold">3:45</p>
+                </div>
+                <div class="card-body">
+                  <div class="order-item bg-light p-3 my-2 position-relative">
+                    <div class="clickable-corner" onclick="toggleColor(this)"></div>
+                    <div class="form-check" onclick="toggleCheckbox(this)">
+                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault1">
+                      <label class="form-check-label me-4" for="flexCheckDefault1">
+                        <span>2</span> x <span>كبسة فراخ</span>
+                      </label>
+                    </div>
+                  </div>
+                  <div class="order-item bg-light p-3 my-2 position-relative">
+                    <div class="clickable-corner" onclick="toggleColor(this)"></div>
+                    <div class="form-check" onclick="toggleCheckbox(this)">
+                      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault2">
+                      <label class="form-check-label me-4" for="flexCheckDefault2">
+                        <span>2</span> x <span>كبسة فراخ</span>
+                      </label>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-footer">
+                  <div class="d-flex justify-content-between">
+                    <div class="form-check bg-light text-dark px-5 py-1 rounded fw-bold" onclick="toggleRadio(this)">
+                      <input type="radio" name="x" id="preparing1">
+                      <label for="preparing1">قيد التحضير</label>
+                    </div>
+                    <div class="form-check bg-light text-dark px-5 py-1 rounded fw-bold" onclick="toggleRadio(this)">
+                      <input type="radio" name="x" id="prepared1">
+                      <label for="prepared1">تم التحضير</label>
+                    </div>
+                  </div>
+                  <button class="btn-details mt-1" data-bs-toggle="modal" data-bs-target="#detailsModal">تفاصيل
+                    الطلب</button>
+                </div>
+              </div>
             </div>
 
           </div>

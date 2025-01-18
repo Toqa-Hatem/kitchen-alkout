@@ -47,7 +47,7 @@
         <a class="navbar-service" href="index.html">
           <img src="SiteAssets/images/logo-with-white-bg.png">
         </a>
-        <div class="accordion" id="accordionOne">
+        <div class="accordion accordion-desktop" id="accordionOne">
           <div class="accordion-item">
             <h2 class="accordion-header" id="headingOne">
               <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
@@ -94,7 +94,7 @@
             </div>
           </div>
         </div>
-        <div class="accordion" id="accordionTwo">
+        <div class="accordion accordion-desktop" id="accordionTwo">
           <div class="accordion-item">
             <h2 class="accordion-header" id="headingTwo">
               <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo"
@@ -153,9 +153,93 @@
       <img src="./SiteAssets/images/vegetables.png" alt="Decoration" class="decor-img decor-center">
       <img src="./SiteAssets/images/vegetables.png" alt="Decoration" class="decor-img decor-center-two">
     </section>
+    <section class=" container accordion-responsive   mt-5 pt-5">
+      <div class="accordion" id="accordionOne">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+              aria-expanded="false" aria-controls="collapseOne">
+              نوع الطلب
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+            data-bs-parent="#accordionOne">
+            <div class="accordion-body">
+              <ul class="nav nav-pills main-pills px-0 " id="pills-tab" role="tablist">
+                <li class="nav-item ms-3" role="presentation">
+                  <button class="nav-link active" id="pills-delivery-tab" data-bs-toggle="pill"
+                    data-bs-target="#pills-delivery" type="button" role="tab" aria-controls="pills-delivery"
+                    aria-selected="true">
+                    <div class="icon">
+                      <i class="fas fa-truck"></i>
+                    </div>
+                    <h6 class="me-4">التوصيل</h6>
+                  </button>
+                </li>
+                <li class="nav-item ms-3 " role="presentation">
+                  <button class="nav-link" id="pills-onsite-tab" data-bs-toggle="pill" data-bs-target="#pills-onsite"
+                    type="button" role="tab" aria-controls="pills-onsite" aria-selected="false">
+                    <div class="icon">
+                      <i class="fas fa-utensils"></i>
+                    </div>
+                    <h6 class="me-4">في المطعم</h6>
+                  </button>
+                </li>
+                <li class="nav-item ms-3 " role="presentation">
+                  <button class="nav-link" id="pills-takeaway-tab" data-bs-toggle="pill"
+                    data-bs-target="#pills-takeaway" type="button" role="tab" aria-controls="pills-takeaway"
+                    aria-selected="false">
+                    <div class="icon">
+                      <i class="fas fa-store"></i>
+                    </div>
+                    <h6 class="me-4">الاستلام من المطعم</h6>
+                  </button>
+                </li>
+              </ul>
 
-    <section class="kitchen container order-cards  py-5">
-      <div class="tab-content mt-5" id="pills-tabContent">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="accordion " id="accordionTwo">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+              aria-expanded="true" aria-controls="collapseTwo">
+              حالة الطلب
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse " aria-labelledby="headingTwo"
+            data-bs-parent="#accordionTwo">
+            <div class="accordion-body">
+              <ul class="nav nav-pills main-pills px-0  " id="pills-tab" role="tablist">
+                <li class="nav-item ms-3" role="presentation">
+                  <button class="nav-link " id="pills-done-tab" data-bs-toggle="pill" data-bs-target="#pills-done"
+                    type="button" role="tab" aria-controls="pills-done" aria-selected="true">
+                    <div class="icon">
+                      <i class="fas fa-check"></i>
+                    </div>
+                    <h6 class="me-4">تم التحضير</h6>
+                  </button>
+                </li>
+                <li class="nav-item ms-3 " role="presentation">
+                  <button class="nav-link" id="pills-notdone-tab" data-bs-toggle="pill" data-bs-target="#pills-notdone"
+                    type="button" role="tab" aria-controls="pills-notdone" aria-selected="false">
+                    <div class="icon">
+                      <i class="fas fa-spinner"></i>
+                    </div>
+                    <h6 class="me-4"> جاري التحضير</h6>
+                  </button>
+                </li>
+              </ul>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="kitchen container order-cards  ">
+      <div class="tab-content mt-3" id="pills-tabContent">
         <div class="tab-pane fade show active" id="pills-delivery" role="tabpanel" aria-labelledby="pills-delivery-tab">
           <div class="row g-3">
             <div class="col-md-4">
@@ -206,12 +290,12 @@
                   </div>
                 </div>
                 <div class="card-footer">
-                  <div class="d-flex justify-content-between">
-                    <div class="form-check bg-light text-dark px-5 py-1 rounded fw-bold" onclick="toggleRadio(this)">
+                  <div class="d-flex flex-wrap justify-content-between ">
+                    <div class="form-check bg-light text-dark radios py-1 rounded fw-bold" onclick="toggleRadio(this)">
                       <input type="radio" name="x" id="preparing1">
                       <label for="preparing1">قيد التحضير</label>
                     </div>
-                    <div class="form-check bg-light text-dark px-5 py-1 rounded fw-bold" onclick="toggleRadio(this)">
+                    <div class="form-check bg-light text-dark radios py-1 rounded fw-bold" onclick="toggleRadio(this)">
                       <input type="radio" name="x" id="prepared1">
                       <label for="prepared1">تم التحضير</label>
                     </div>
@@ -259,14 +343,14 @@
                   </div>
                 </div>
                 <div class="card-footer">
-                  <div class="d-flex justify-content-between">
-                    <div class="form-check bg-light text-dark px-5 py-1 rounded fw-bold" onclick="toggleRadio(this)">
-                      <input type="radio" name="x" id="preparing2">
-                      <label for="preparing2">قيد التحضير</label>
+                  <div class="d-flex flex-wrap justify-content-between ">
+                    <div class="form-check bg-light text-dark radios py-1 rounded fw-bold" onclick="toggleRadio(this)">
+                      <input type="radio" name="x" id="preparing1">
+                      <label for="preparing1">قيد التحضير</label>
                     </div>
-                    <div class="form-check bg-light text-dark px-5 py-1 rounded fw-bold" onclick="toggleRadio(this)">
-                      <input type="radio" name="x" id="prepared2">
-                      <label for="prepared2">تم التحضير</label>
+                    <div class="form-check bg-light text-dark radios py-1 rounded fw-bold" onclick="toggleRadio(this)">
+                      <input type="radio" name="x" id="prepared1">
+                      <label for="prepared1">تم التحضير</label>
                     </div>
                   </div>
                   <button class="btn-details mt-1" data-bs-toggle="modal" data-bs-target="#detailsModal">تفاصيل
@@ -312,12 +396,12 @@
                   </div>
                 </div>
                 <div class="card-footer">
-                  <div class="d-flex justify-content-between">
-                    <div class="form-check bg-light text-dark px-5 py-1 rounded fw-bold" onclick="toggleRadio(this)">
+                  <div class="d-flex flex-wrap justify-content-between ">
+                    <div class="form-check bg-light text-dark radios py-1 rounded fw-bold" onclick="toggleRadio(this)">
                       <input type="radio" name="x" id="preparing1">
                       <label for="preparing1">قيد التحضير</label>
                     </div>
-                    <div class="form-check bg-light text-dark px-5 py-1 rounded fw-bold" onclick="toggleRadio(this)">
+                    <div class="form-check bg-light text-dark radios py-1 rounded fw-bold" onclick="toggleRadio(this)">
                       <input type="radio" name="x" id="prepared1">
                       <label for="prepared1">تم التحضير</label>
                     </div>
@@ -374,12 +458,12 @@
                   </div>
                 </div>
                 <div class="card-footer">
-                  <div class="d-flex justify-content-between">
-                    <div class="form-check bg-light text-dark px-5 py-1 rounded fw-bold" onclick="toggleRadio(this)">
+                  <div class="d-flex flex-wrap justify-content-between ">
+                    <div class="form-check bg-light text-dark radios py-1 rounded fw-bold" onclick="toggleRadio(this)">
                       <input type="radio" name="x" id="preparing1">
                       <label for="preparing1">قيد التحضير</label>
                     </div>
-                    <div class="form-check bg-light text-dark px-5 py-1 rounded fw-bold" onclick="toggleRadio(this)">
+                    <div class="form-check bg-light text-dark radios py-1 rounded fw-bold" onclick="toggleRadio(this)">
                       <input type="radio" name="x" id="prepared1">
                       <label for="prepared1">تم التحضير</label>
                     </div>
@@ -454,12 +538,12 @@
                   </div>
                 </div>
                 <div class="card-footer">
-                  <div class="d-flex justify-content-between">
-                    <div class="form-check bg-light text-dark px-5 py-1 rounded fw-bold" onclick="toggleRadio(this)">
+                  <div class="d-flex flex-wrap justify-content-between ">
+                    <div class="form-check bg-light text-dark radios py-1 rounded fw-bold" onclick="toggleRadio(this)">
                       <input type="radio" name="x" id="preparing1">
                       <label for="preparing1">قيد التحضير</label>
                     </div>
-                    <div class="form-check bg-light text-dark px-5 py-1 rounded fw-bold" onclick="toggleRadio(this)">
+                    <div class="form-check bg-light text-dark radios py-1 rounded fw-bold" onclick="toggleRadio(this)">
                       <input type="radio" name="x" id="prepared1">
                       <label for="prepared1">تم التحضير</label>
                     </div>
@@ -498,12 +582,12 @@
                   </div>
                 </div>
                 <div class="card-footer">
-                  <div class="d-flex justify-content-between">
-                    <div class="form-check bg-light text-dark px-5 py-1 rounded fw-bold" onclick="toggleRadio(this)">
+                  <div class="d-flex flex-wrap justify-content-between ">
+                    <div class="form-check bg-light text-dark radios py-1 rounded fw-bold" onclick="toggleRadio(this)">
                       <input type="radio" name="x" id="preparing1">
                       <label for="preparing1">قيد التحضير</label>
                     </div>
-                    <div class="form-check bg-light text-dark px-5 py-1 rounded fw-bold" onclick="toggleRadio(this)">
+                    <div class="form-check bg-light text-dark radios py-1 rounded fw-bold" onclick="toggleRadio(this)">
                       <input type="radio" name="x" id="prepared1">
                       <label for="prepared1">تم التحضير</label>
                     </div>
@@ -558,14 +642,14 @@
                   </div>
                 </div>
                 <div class="card-footer">
-                  <div class="d-flex justify-content-between">
-                    <div class="form-check bg-light text-dark px-5 py-1 rounded fw-bold" onclick="toggleRadio(this)">
-                      <input type="radio" name="x" id="preparing2">
-                      <label for="preparing2">قيد التحضير</label>
+                  <div class="d-flex flex-wrap justify-content-between ">
+                    <div class="form-check bg-light text-dark radios py-1 rounded fw-bold" onclick="toggleRadio(this)">
+                      <input type="radio" name="x" id="preparing1">
+                      <label for="preparing1">قيد التحضير</label>
                     </div>
-                    <div class="form-check bg-light text-dark px-5 py-1 rounded fw-bold" onclick="toggleRadio(this)">
-                      <input type="radio" name="x" id="prepared2">
-                      <label for="prepared2">تم التحضير</label>
+                    <div class="form-check bg-light text-dark radios py-1 rounded fw-bold" onclick="toggleRadio(this)">
+                      <input type="radio" name="x" id="prepared1">
+                      <label for="prepared1">تم التحضير</label>
                     </div>
                   </div>
                   <button class="btn-details mt-1" data-bs-toggle="modal" data-bs-target="#detailsModal">تفاصيل
@@ -621,12 +705,12 @@
                   </div>
                 </div>
                 <div class="card-footer">
-                  <div class="d-flex justify-content-between">
-                    <div class="form-check bg-light text-dark px-5 py-1 rounded fw-bold" onclick="toggleRadio(this)">
+                  <div class="d-flex flex-wrap justify-content-between ">
+                    <div class="form-check bg-light text-dark radios py-1 rounded fw-bold" onclick="toggleRadio(this)">
                       <input type="radio" name="x" id="preparing1">
                       <label for="preparing1">قيد التحضير</label>
                     </div>
-                    <div class="form-check bg-light text-dark px-5 py-1 rounded fw-bold" onclick="toggleRadio(this)">
+                    <div class="form-check bg-light text-dark radios py-1 rounded fw-bold" onclick="toggleRadio(this)">
                       <input type="radio" name="x" id="prepared1">
                       <label for="prepared1">تم التحضير</label>
                     </div>
@@ -701,12 +785,12 @@
                   </div>
                 </div>
                 <div class="card-footer">
-                  <div class="d-flex justify-content-between">
-                    <div class="form-check bg-light text-dark px-5 py-1 rounded fw-bold" onclick="toggleRadio(this)">
+                  <div class="d-flex flex-wrap justify-content-between ">
+                    <div class="form-check bg-light text-dark radios py-1 rounded fw-bold" onclick="toggleRadio(this)">
                       <input type="radio" name="x" id="preparing1">
                       <label for="preparing1">قيد التحضير</label>
                     </div>
-                    <div class="form-check bg-light text-dark px-5 py-1 rounded fw-bold" onclick="toggleRadio(this)">
+                    <div class="form-check bg-light text-dark radios py-1 rounded fw-bold" onclick="toggleRadio(this)">
                       <input type="radio" name="x" id="prepared1">
                       <label for="prepared1">تم التحضير</label>
                     </div>
@@ -781,12 +865,12 @@
                   </div>
                 </div>
                 <div class="card-footer">
-                  <div class="d-flex justify-content-between">
-                    <div class="form-check bg-light text-dark px-5 py-1 rounded fw-bold" onclick="toggleRadio(this)">
+                  <div class="d-flex flex-wrap justify-content-between ">
+                    <div class="form-check bg-light text-dark radios py-1 rounded fw-bold" onclick="toggleRadio(this)">
                       <input type="radio" name="x" id="preparing1">
                       <label for="preparing1">قيد التحضير</label>
                     </div>
-                    <div class="form-check bg-light text-dark px-5 py-1 rounded fw-bold" onclick="toggleRadio(this)">
+                    <div class="form-check bg-light text-dark radios py-1 rounded fw-bold" onclick="toggleRadio(this)">
                       <input type="radio" name="x" id="prepared1">
                       <label for="prepared1">تم التحضير</label>
                     </div>
@@ -825,12 +909,12 @@
                   </div>
                 </div>
                 <div class="card-footer">
-                  <div class="d-flex justify-content-between">
-                    <div class="form-check bg-light text-dark px-5 py-1 rounded fw-bold" onclick="toggleRadio(this)">
+                  <div class="d-flex flex-wrap justify-content-between ">
+                    <div class="form-check bg-light text-dark radios py-1 rounded fw-bold" onclick="toggleRadio(this)">
                       <input type="radio" name="x" id="preparing1">
                       <label for="preparing1">قيد التحضير</label>
                     </div>
-                    <div class="form-check bg-light text-dark px-5 py-1 rounded fw-bold" onclick="toggleRadio(this)">
+                    <div class="form-check bg-light text-dark radios py-1 rounded fw-bold" onclick="toggleRadio(this)">
                       <input type="radio" name="x" id="prepared1">
                       <label for="prepared1">تم التحضير</label>
                     </div>
@@ -894,12 +978,12 @@
                   </div>
                 </div>
                 <div class="card-footer">
-                  <div class="d-flex justify-content-between">
-                    <div class="form-check bg-light text-dark px-5 py-1 rounded fw-bold" onclick="toggleRadio(this)">
+                  <div class="d-flex flex-wrap justify-content-between ">
+                    <div class="form-check bg-light text-dark radios py-1 rounded fw-bold" onclick="toggleRadio(this)">
                       <input type="radio" name="x" id="preparing1">
                       <label for="preparing1">قيد التحضير</label>
                     </div>
-                    <div class="form-check bg-light text-dark px-5 py-1 rounded fw-bold" onclick="toggleRadio(this)">
+                    <div class="form-check bg-light text-dark radios py-1 rounded fw-bold" onclick="toggleRadio(this)">
                       <input type="radio" name="x" id="prepared1">
                       <label for="prepared1">تم التحضير</label>
                     </div>
@@ -947,14 +1031,14 @@
                   </div>
                 </div>
                 <div class="card-footer">
-                  <div class="d-flex justify-content-between">
-                    <div class="form-check bg-light text-dark px-5 py-1 rounded fw-bold" onclick="toggleRadio(this)">
-                      <input type="radio" name="x" id="preparing2">
-                      <label for="preparing2">قيد التحضير</label>
+                  <div class="d-flex flex-wrap justify-content-between ">
+                    <div class="form-check bg-light text-dark radios py-1 rounded fw-bold" onclick="toggleRadio(this)">
+                      <input type="radio" name="x" id="preparing1">
+                      <label for="preparing1">قيد التحضير</label>
                     </div>
-                    <div class="form-check bg-light text-dark px-5 py-1 rounded fw-bold" onclick="toggleRadio(this)">
-                      <input type="radio" name="x" id="prepared2">
-                      <label for="prepared2">تم التحضير</label>
+                    <div class="form-check bg-light text-dark radios py-1 rounded fw-bold" onclick="toggleRadio(this)">
+                      <input type="radio" name="x" id="prepared1">
+                      <label for="prepared1">تم التحضير</label>
                     </div>
                   </div>
                   <button class="btn-details mt-1" data-bs-toggle="modal" data-bs-target="#detailsModal">تفاصيل
@@ -1009,12 +1093,12 @@
                   </div>
                 </div>
                 <div class="card-footer">
-                  <div class="d-flex justify-content-between">
-                    <div class="form-check bg-light text-dark px-5 py-1 rounded fw-bold" onclick="toggleRadio(this)">
+                  <div class="d-flex flex-wrap justify-content-between ">
+                    <div class="form-check bg-light text-dark radios py-1 rounded fw-bold" onclick="toggleRadio(this)">
                       <input type="radio" name="x" id="preparing1">
                       <label for="preparing1">قيد التحضير</label>
                     </div>
-                    <div class="form-check bg-light text-dark px-5 py-1 rounded fw-bold" onclick="toggleRadio(this)">
+                    <div class="form-check bg-light text-dark radios py-1 rounded fw-bold" onclick="toggleRadio(this)">
                       <input type="radio" name="x" id="prepared1">
                       <label for="prepared1">تم التحضير</label>
                     </div>
@@ -1089,12 +1173,12 @@
                   </div>
                 </div>
                 <div class="card-footer">
-                  <div class="d-flex justify-content-between">
-                    <div class="form-check bg-light text-dark px-5 py-1 rounded fw-bold" onclick="toggleRadio(this)">
+                  <div class="d-flex flex-wrap justify-content-between ">
+                    <div class="form-check bg-light text-dark radios py-1 rounded fw-bold" onclick="toggleRadio(this)">
                       <input type="radio" name="x" id="preparing1">
                       <label for="preparing1">قيد التحضير</label>
                     </div>
-                    <div class="form-check bg-light text-dark px-5 py-1 rounded fw-bold" onclick="toggleRadio(this)">
+                    <div class="form-check bg-light text-dark radios py-1 rounded fw-bold" onclick="toggleRadio(this)">
                       <input type="radio" name="x" id="prepared1">
                       <label for="prepared1">تم التحضير</label>
                     </div>
@@ -1133,12 +1217,12 @@
                   </div>
                 </div>
                 <div class="card-footer">
-                  <div class="d-flex justify-content-between">
-                    <div class="form-check bg-light text-dark px-5 py-1 rounded fw-bold" onclick="toggleRadio(this)">
+                  <div class="d-flex flex-wrap justify-content-between ">
+                    <div class="form-check bg-light text-dark radios py-1 rounded fw-bold" onclick="toggleRadio(this)">
                       <input type="radio" name="x" id="preparing1">
                       <label for="preparing1">قيد التحضير</label>
                     </div>
-                    <div class="form-check bg-light text-dark px-5 py-1 rounded fw-bold" onclick="toggleRadio(this)">
+                    <div class="form-check bg-light text-dark radios py-1 rounded fw-bold" onclick="toggleRadio(this)">
                       <input type="radio" name="x" id="prepared1">
                       <label for="prepared1">تم التحضير</label>
                     </div>
@@ -1206,12 +1290,12 @@
                   </div>
                 </div>
                 <div class="card-footer">
-                  <div class="d-flex justify-content-between">
-                    <div class="form-check bg-light text-dark px-5 py-1 rounded fw-bold" onclick="toggleRadio(this)">
+                  <div class="d-flex flex-wrap justify-content-between ">
+                    <div class="form-check bg-light text-dark radios py-1 rounded fw-bold" onclick="toggleRadio(this)">
                       <input type="radio" name="x" id="preparing1">
                       <label for="preparing1">قيد التحضير</label>
                     </div>
-                    <div class="form-check bg-light text-dark px-5 py-1 rounded fw-bold" onclick="toggleRadio(this)">
+                    <div class="form-check bg-light text-dark radios py-1 rounded fw-bold" onclick="toggleRadio(this)">
                       <input type="radio" name="x" id="prepared1">
                       <label for="prepared1">تم التحضير</label>
                     </div>
@@ -1259,14 +1343,14 @@
                   </div>
                 </div>
                 <div class="card-footer">
-                  <div class="d-flex justify-content-between">
-                    <div class="form-check bg-light text-dark px-5 py-1 rounded fw-bold" onclick="toggleRadio(this)">
-                      <input type="radio" name="x" id="preparing2">
-                      <label for="preparing2">قيد التحضير</label>
+                  <div class="d-flex flex-wrap justify-content-between ">
+                    <div class="form-check bg-light text-dark radios py-1 rounded fw-bold" onclick="toggleRadio(this)">
+                      <input type="radio" name="x" id="preparing1">
+                      <label for="preparing1">قيد التحضير</label>
                     </div>
-                    <div class="form-check bg-light text-dark px-5 py-1 rounded fw-bold" onclick="toggleRadio(this)">
-                      <input type="radio" name="x" id="prepared2">
-                      <label for="prepared2">تم التحضير</label>
+                    <div class="form-check bg-light text-dark radios py-1 rounded fw-bold" onclick="toggleRadio(this)">
+                      <input type="radio" name="x" id="prepared1">
+                      <label for="prepared1">تم التحضير</label>
                     </div>
                   </div>
                   <button class="btn-details mt-1" data-bs-toggle="modal" data-bs-target="#detailsModal">تفاصيل
@@ -1312,12 +1396,12 @@
                   </div>
                 </div>
                 <div class="card-footer">
-                  <div class="d-flex justify-content-between">
-                    <div class="form-check bg-light text-dark px-5 py-1 rounded fw-bold" onclick="toggleRadio(this)">
+                  <div class="d-flex flex-wrap justify-content-between ">
+                    <div class="form-check bg-light text-dark radios py-1 rounded fw-bold" onclick="toggleRadio(this)">
                       <input type="radio" name="x" id="preparing1">
                       <label for="preparing1">قيد التحضير</label>
                     </div>
-                    <div class="form-check bg-light text-dark px-5 py-1 rounded fw-bold" onclick="toggleRadio(this)">
+                    <div class="form-check bg-light text-dark radios py-1 rounded fw-bold" onclick="toggleRadio(this)">
                       <input type="radio" name="x" id="prepared1">
                       <label for="prepared1">تم التحضير</label>
                     </div>
@@ -1374,12 +1458,12 @@
                   </div>
                 </div>
                 <div class="card-footer">
-                  <div class="d-flex justify-content-between">
-                    <div class="form-check bg-light text-dark px-5 py-1 rounded fw-bold" onclick="toggleRadio(this)">
+                  <div class="d-flex flex-wrap justify-content-between ">
+                    <div class="form-check bg-light text-dark radios py-1 rounded fw-bold" onclick="toggleRadio(this)">
                       <input type="radio" name="x" id="preparing1">
                       <label for="preparing1">قيد التحضير</label>
                     </div>
-                    <div class="form-check bg-light text-dark px-5 py-1 rounded fw-bold" onclick="toggleRadio(this)">
+                    <div class="form-check bg-light text-dark radios py-1 rounded fw-bold" onclick="toggleRadio(this)">
                       <input type="radio" name="x" id="prepared1">
                       <label for="prepared1">تم التحضير</label>
                     </div>
@@ -1454,12 +1538,12 @@
                   </div>
                 </div>
                 <div class="card-footer">
-                  <div class="d-flex justify-content-between">
-                    <div class="form-check bg-light text-dark px-5 py-1 rounded fw-bold" onclick="toggleRadio(this)">
+                  <div class="d-flex flex-wrap justify-content-between ">
+                    <div class="form-check bg-light text-dark radios py-1 rounded fw-bold" onclick="toggleRadio(this)">
                       <input type="radio" name="x" id="preparing1">
                       <label for="preparing1">قيد التحضير</label>
                     </div>
-                    <div class="form-check bg-light text-dark px-5 py-1 rounded fw-bold" onclick="toggleRadio(this)">
+                    <div class="form-check bg-light text-dark radios py-1 rounded fw-bold" onclick="toggleRadio(this)">
                       <input type="radio" name="x" id="prepared1">
                       <label for="prepared1">تم التحضير</label>
                     </div>
@@ -1498,12 +1582,12 @@
                   </div>
                 </div>
                 <div class="card-footer">
-                  <div class="d-flex justify-content-between">
-                    <div class="form-check bg-light text-dark px-5 py-1 rounded fw-bold" onclick="toggleRadio(this)">
+                  <div class="d-flex flex-wrap justify-content-between ">
+                    <div class="form-check bg-light text-dark radios py-1 rounded fw-bold" onclick="toggleRadio(this)">
                       <input type="radio" name="x" id="preparing1">
                       <label for="preparing1">قيد التحضير</label>
                     </div>
-                    <div class="form-check bg-light text-dark px-5 py-1 rounded fw-bold" onclick="toggleRadio(this)">
+                    <div class="form-check bg-light text-dark radios py-1 rounded fw-bold" onclick="toggleRadio(this)">
                       <input type="radio" name="x" id="prepared1">
                       <label for="prepared1">تم التحضير</label>
                     </div>
@@ -1566,12 +1650,12 @@
                   </div>
                 </div>
                 <div class="card-footer">
-                  <div class="d-flex justify-content-between">
-                    <div class="form-check bg-light text-dark px-5 py-1 rounded fw-bold" onclick="toggleRadio(this)">
+                  <div class="d-flex flex-wrap justify-content-between ">
+                    <div class="form-check bg-light text-dark radios py-1 rounded fw-bold" onclick="toggleRadio(this)">
                       <input type="radio" name="x" id="preparing1">
                       <label for="preparing1">قيد التحضير</label>
                     </div>
-                    <div class="form-check bg-light text-dark px-5 py-1 rounded fw-bold" onclick="toggleRadio(this)">
+                    <div class="form-check bg-light text-dark radios py-1 rounded fw-bold" onclick="toggleRadio(this)">
                       <input type="radio" name="x" id="prepared1">
                       <label for="prepared1">تم التحضير</label>
                     </div>
@@ -1619,14 +1703,14 @@
                   </div>
                 </div>
                 <div class="card-footer">
-                  <div class="d-flex justify-content-between">
-                    <div class="form-check bg-light text-dark px-5 py-1 rounded fw-bold" onclick="toggleRadio(this)">
-                      <input type="radio" name="x" id="preparing2">
-                      <label for="preparing2">قيد التحضير</label>
+                  <div class="d-flex flex-wrap justify-content-between ">
+                    <div class="form-check bg-light text-dark radios py-1 rounded fw-bold" onclick="toggleRadio(this)">
+                      <input type="radio" name="x" id="preparing1">
+                      <label for="preparing1">قيد التحضير</label>
                     </div>
-                    <div class="form-check bg-light text-dark px-5 py-1 rounded fw-bold" onclick="toggleRadio(this)">
-                      <input type="radio" name="x" id="prepared2">
-                      <label for="prepared2">تم التحضير</label>
+                    <div class="form-check bg-light text-dark radios py-1 rounded fw-bold" onclick="toggleRadio(this)">
+                      <input type="radio" name="x" id="prepared1">
+                      <label for="prepared1">تم التحضير</label>
                     </div>
                   </div>
                   <button class="btn-details mt-1" data-bs-toggle="modal" data-bs-target="#detailsModal">تفاصيل
@@ -1672,12 +1756,12 @@
                   </div>
                 </div>
                 <div class="card-footer">
-                  <div class="d-flex justify-content-between">
-                    <div class="form-check bg-light text-dark px-5 py-1 rounded fw-bold" onclick="toggleRadio(this)">
+                  <div class="d-flex flex-wrap justify-content-between ">
+                    <div class="form-check bg-light text-dark radios py-1 rounded fw-bold" onclick="toggleRadio(this)">
                       <input type="radio" name="x" id="preparing1">
                       <label for="preparing1">قيد التحضير</label>
                     </div>
-                    <div class="form-check bg-light text-dark px-5 py-1 rounded fw-bold" onclick="toggleRadio(this)">
+                    <div class="form-check bg-light text-dark radios py-1 rounded fw-bold" onclick="toggleRadio(this)">
                       <input type="radio" name="x" id="prepared1">
                       <label for="prepared1">تم التحضير</label>
                     </div>
@@ -1734,12 +1818,12 @@
                   </div>
                 </div>
                 <div class="card-footer">
-                  <div class="d-flex justify-content-between">
-                    <div class="form-check bg-light text-dark px-5 py-1 rounded fw-bold" onclick="toggleRadio(this)">
+                  <div class="d-flex flex-wrap justify-content-between ">
+                    <div class="form-check bg-light text-dark radios py-1 rounded fw-bold" onclick="toggleRadio(this)">
                       <input type="radio" name="x" id="preparing1">
                       <label for="preparing1">قيد التحضير</label>
                     </div>
-                    <div class="form-check bg-light text-dark px-5 py-1 rounded fw-bold" onclick="toggleRadio(this)">
+                    <div class="form-check bg-light text-dark radios py-1 rounded fw-bold" onclick="toggleRadio(this)">
                       <input type="radio" name="x" id="prepared1">
                       <label for="prepared1">تم التحضير</label>
                     </div>
@@ -1814,12 +1898,12 @@
                   </div>
                 </div>
                 <div class="card-footer">
-                  <div class="d-flex justify-content-between">
-                    <div class="form-check bg-light text-dark px-5 py-1 rounded fw-bold" onclick="toggleRadio(this)">
+                  <div class="d-flex flex-wrap justify-content-between ">
+                    <div class="form-check bg-light text-dark radios py-1 rounded fw-bold" onclick="toggleRadio(this)">
                       <input type="radio" name="x" id="preparing1">
                       <label for="preparing1">قيد التحضير</label>
                     </div>
-                    <div class="form-check bg-light text-dark px-5 py-1 rounded fw-bold" onclick="toggleRadio(this)">
+                    <div class="form-check bg-light text-dark radios py-1 rounded fw-bold" onclick="toggleRadio(this)">
                       <input type="radio" name="x" id="prepared1">
                       <label for="prepared1">تم التحضير</label>
                     </div>
@@ -1858,12 +1942,12 @@
                   </div>
                 </div>
                 <div class="card-footer">
-                  <div class="d-flex justify-content-between">
-                    <div class="form-check bg-light text-dark px-5 py-1 rounded fw-bold" onclick="toggleRadio(this)">
+                  <div class="d-flex flex-wrap justify-content-between ">
+                    <div class="form-check bg-light text-dark radios py-1 rounded fw-bold" onclick="toggleRadio(this)">
                       <input type="radio" name="x" id="preparing1">
                       <label for="preparing1">قيد التحضير</label>
                     </div>
-                    <div class="form-check bg-light text-dark px-5 py-1 rounded fw-bold" onclick="toggleRadio(this)">
+                    <div class="form-check bg-light text-dark radios py-1 rounded fw-bold" onclick="toggleRadio(this)">
                       <input type="radio" name="x" id="prepared1">
                       <label for="prepared1">تم التحضير</label>
                     </div>
@@ -1897,9 +1981,10 @@
           <h3>هل انت متأكد من تسجيل الخروج ؟</h3>
         </div>
         <div class="modal-footer d-flex justify-content-center border-0 my-2">
-          <button type="button" class="btn btn-logout w-25"> <i class="fas fa-sign-out-alt ms-1"></i> الخروج</button>
-          <button type="button" class="btn  main-color bg-light w-25 border" data-bs-dismiss="modal "
-            aria-label="Close"> <i class="fas fa-times-circle ms-1"></i>الغاء</button>
+          <a href="/login.html" type="button" class="btn btn-logout w-25"> <i class="fas fa-sign-out-alt ms-1"></i>
+            الخروج</a>
+          <a href="/kitchen.html" type="button" class="btn  main-color bg-light w-25 border" data-bs-dismiss="modal "
+            aria-label="Close"> <i class="fas fa-times-circle ms-1"></i>الغاء</a>
 
         </div>
       </div>
@@ -1910,7 +1995,7 @@
     aria-hidden="true">
     <div class="modal-dialog modal-lg">
       <div class="modal-content">
-     <div class="modal-header border-0 position-relative d-flex justify-content-center">
+        <div class="modal-header border-0 position-relative d-flex justify-content-center">
           <div class="title-details text-center">
             <h5 class="modal-title w-100 fw-bold main-color" id="detailsModalLabel">تفاصيل الطلب</h5>
           </div>
@@ -1918,7 +2003,7 @@
             aria-label="Close"></button>
         </div>
         <div class="modal-body">
-        
+
           <div class="card card-details mb-3">
             <div class="card-body p-4">
               <div class="d-flex">
@@ -1926,20 +2011,20 @@
                   <img src="SiteAssets/images/plate1.png" class="img-fluid" alt="Plate Image">
                 </figure>
                 <div class="cart-details ps-4">
-                  <div class="d-flex justify-content-between align-items-center px-2">
+                  <div class="d-flex justify-content-between flex-wrap align-items-center px-2">
                     <h4 class="fw-bold">
                       <span>2</span> x <span>كبسة فراخ</span>
                     </h4>
-                    <a href="ingredients.html" class="btn ">تفاصيل الطلب</a>
+                    <a href="ingredients.html" class="btn btn-reciepe "> طريقة التحضير</a>
                   </div>
                   <div class="py-2 px-2">
-                    <h5 class="main-color fw-bold ">الاضافات:
-                      <span class="text-dark p-1 border border-dark bg-light rounded">دجاج مشوي</span>
-                      <span class="text-dark p-1 border border-dark bg-light rounded">جمبري</span>
+                    <h5 class="main-color fw-bold sides">الاضافات:
+                      <span class="text-dark adds p-1  border border-dark bg-light rounded">دجاج مشوي</span>
+                      <span class="text-dark adds p-1  border border-dark bg-light rounded">جمبري</span>
                     </h5>
                   </div>
                   <div class="py-2  px-2">
-                    <h5 class="main-color fw-bold ">الملاحظات:
+                    <h5 class="main-color fw-bold notes">الملاحظات:
                       <small class="text-dark">تجنب الملح والبصل في تحضير الطبق، تسخين الاكل قبل التقديم</small>
                     </h5>
                   </div>
@@ -1954,20 +2039,20 @@
                   <img src="SiteAssets/images/plate1.png" class="img-fluid" alt="Plate Image">
                 </figure>
                 <div class="cart-details ps-4">
-                  <div class="d-flex justify-content-between align-items-center px-2">
+                  <div class="d-flex justify-content-between flex-wrap align-items-center px-2">
                     <h4 class="fw-bold">
                       <span>2</span> x <span>كبسة فراخ</span>
                     </h4>
-                    <a href="ingredients.html" class="btn ">تفاصيل الطلب</a>
+                    <a href="ingredients.html" class="btn btn-reciepe "> طريقة التحضير</a>
                   </div>
                   <div class="py-2 px-2">
-                    <h5 class="main-color fw-bold ">الاضافات:
-                      <span class="text-dark p-1 border border-dark bg-light rounded">دجاج مشوي</span>
-                      <span class="text-dark p-1 border border-dark bg-light rounded">جمبري</span>
+                    <h5 class="main-color fw-bold sides">الاضافات:
+                      <span class="text-dark adds p-1  border border-dark bg-light rounded">دجاج مشوي</span>
+                      <span class="text-dark adds p-1 border border-dark bg-light rounded">جمبري</span>
                     </h5>
                   </div>
                   <div class="py-2  px-2">
-                    <h5 class="main-color fw-bold ">الملاحظات:
+                    <h5 class="main-color fw-bold notes">الملاحظات:
                       <small class="text-dark">تجنب الملح والبصل في تحضير الطبق، تسخين الاكل قبل التقديم</small>
                     </h5>
                   </div>
@@ -1982,20 +2067,20 @@
                   <img src="SiteAssets/images/plate1.png" class="img-fluid" alt="Plate Image">
                 </figure>
                 <div class="cart-details ps-4">
-                  <div class="d-flex justify-content-between align-items-center px-2">
+                  <div class="d-flex justify-content-between flex-wrap align-items-center px-2">
                     <h4 class="fw-bold">
                       <span>2</span> x <span>كبسة فراخ</span>
                     </h4>
-                    <a href="ingredients.html" class="btn ">تفاصيل الطلب</a>
+                    <a href="ingredients.html" class="btn btn-reciepe "> طريقة التحضير</a>
                   </div>
                   <div class="py-2 px-2">
-                    <h5 class="main-color fw-bold ">الاضافات:
-                      <span class="text-dark p-1 border border-dark bg-light rounded">دجاج مشوي</span>
-                      <span class="text-dark p-1 border border-dark bg-light rounded">جمبري</span>
+                    <h5 class="main-color fw-bold sides">الاضافات:
+                      <span class="text-dark adds p-1  border border-dark bg-light rounded">دجاج مشوي</span>
+                      <span class="text-dark adds p-1 border border-dark bg-light rounded">جمبري</span>
                     </h5>
                   </div>
                   <div class="py-2  px-2">
-                    <h5 class="main-color fw-bold ">الملاحظات:
+                    <h5 class="main-color fw-bold notes">الملاحظات:
                       <small class="text-dark">تجنب الملح والبصل في تحضير الطبق، تسخين الاكل قبل التقديم</small>
                     </h5>
                   </div>

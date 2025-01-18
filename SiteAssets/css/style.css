@@ -358,7 +358,7 @@ header.scroll .second-header {
     background-repeat: no-repeat;
     padding: 50px 0; 
   }
-  
+
   .accordion-item {
     background-color: transparent !important; 
     border: none; 
@@ -377,6 +377,37 @@ header.scroll .second-header {
   .accordion-button:focus {
     box-shadow: none !important; 
   }
+  .accordion-responsive  .accordion-button{
+    color: #010101 !important; 
+    font-weight: 900;
+  }
+
+.accordion-responsive  .reciepe-accordion .accordion-button::after {
+    background-color: #fe0000;
+
+}
+.accordion-responsive .main-pills .nav-link:active{
+    display: flex;
+    background-color: #fe0000 ;
+    border-radius: 10px;
+    color: #ffffff;
+}
+.accordion-responsive .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fe0000;
+    background-color: transparent !important;
+    border: 1px solid #fe0000;
+}
+.accordion-responsive{
+    display: none;
+}
+.accordion-responsive .main-pills .nav-link{
+    display: flex;
+    background-color: #fe0000;
+    border-radius: 10px;
+    color: #fff;
+    border: 1px solid #ffffff;
+}
+
   .accordion-button::after {
     flex-shrink: 0;
     width: 1.25rem;
@@ -421,7 +452,7 @@ header.scroll .second-header {
 }
 .order-cards{
     position: relative;
-    margin-top: 70px;
+    margin-top: 100px;
 }
 .order-cards .card {
     max-height: 500px; 
@@ -527,6 +558,9 @@ border-radius: 20px;
     max-height: 50rem;
     overflow-y: auto;
   }
+  .radios{
+    padding-inline: 50px;
+  }
 /* reciepe page  */
   .ingredients{
     background-color: #1A191940;
@@ -589,13 +623,16 @@ border-radius: 20px;
     header .navbar .navbar-service img {
         width: 140px;
     }
+    .radios{
+        padding-inline: 45px;
+    }
 }
 @media(max-width: 1200px) {
     .chef-login {
         width: 20rem;
     }
     .order-cards {
-        margin-top: 105px;
+        margin-top: 0px;
     }
     .image-on-top {
         top: -9px;
@@ -610,6 +647,30 @@ border-radius: 20px;
         max-height: 25rem;
         border-radius: 20px;
     }
+    .accordion-responsive{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .accordion-desktop{
+        display: none;
+    }
+    .kitchen {
+        padding: 0px 0;
+    }
+    .radios{
+        padding-inline: 30px;
+    }
+}
+@media(max-width: 1100px) {
+.accordion-responsive .nav-link {
+ font-size: 0.8rem;
+}
+.accordion-responsive .nav-link h6 {
+    margin-right: 1rem !important;
+   }
+   .radios{
+    padding-inline: 15px;
+}
 }
 @media(max-width: 992px) {
     .chef-login {
@@ -625,6 +686,26 @@ border-radius: 20px;
     }
     .decor-img {
         width: 5rem;
+    }
+    .accordion-responsive .nav-link {
+        font-size: 0.7rem;
+        margin-bottom: 5px;
+
+       }
+       .accordion-responsive .nav-link h6 {
+        font-size: 0.8rem;
+        margin-right: 0.2rem !important;
+    }
+          .radios{
+           padding-inline: 0px;
+           width: 100%;
+           text-align: center;
+       }
+       .cart-details{
+        padding-left: 0px !important;
+       }
+      .adds {
+        font-size: 0.8rem;
     }
 }
 @media(max-width: 540px) {
@@ -642,4 +723,26 @@ border-radius: 20px;
         top: 10rem;
         right: 0px;
     }
+    .order-cards .card {
+        max-height: 310px;
+        margin-inline: 30px;
+    }
+    .detailsModal .modal-body {
+        max-height: 31rem;
+    }
+}
+@media(max-width: 400px) {
+header .navbar .navbar-service img {
+    width: 105px;
+}
+.sides, .notes{
+    font-size: 1rem !important;
+}
+.btn-reciepe{
+    font-size: 0.8rem;
+}
+.card-details .card-body{
+    padding-inline: 3px !important;
+    padding-top: 5px !important;
+}
 }

@@ -61,13 +61,14 @@
 
 
   <main>
-
-    <section class="ingredients pt-5 mt-0 ">
+    <section>
       <img src="./SiteAssets/images/meat.png" alt="Decoration" class="decor-img decor-top-left">
       <img src="./SiteAssets/images/spoon.png" alt="Decoration" class="decor-img decor-bottom-right">
       <img src="./SiteAssets/images/vegetables.png" alt="Decoration" class="decor-img decor-center">
       <img src="./SiteAssets/images/vegetables.png" alt="Decoration" class="decor-img decor-center-two">
 
+    </section>
+    <section class="ingredients pt-5 mt-0 ">
       <div class="container container-bg shadow p-5  bg-body rounded my-5 ">
         <div class="d-flex justify-content-center align-items-center">
           <div class="reciepe-title text-center">
@@ -110,10 +111,11 @@
           </div>
         </div>
         <div class="tab-content px-5" id="pills-tabContent">
-          <div class="tab-pane fade show active" id="pills-ingredients" role="tabpanel" aria-labelledby="pills-ingredients-tab">
+          <div class="tab-pane fade show active" id="pills-ingredients" role="tabpanel"
+            aria-labelledby="pills-ingredients-tab">
             <div class="row position-relative">
-            
-              <div class="col-7 bg-lightred-ingredients my-5 py-5">
+
+              <div class="col-md-7 col-sm-12  bg-lightred-ingredients my-5 py-5">
                 <img src="/SiteAssets/images/ingredients.png" alt="Top Image" class="image-on-top">
                 <div class="ingredients-details">
                   <h4 class="fw-bold main-color">المقادير :</h4>
@@ -142,13 +144,13 @@
                   </ul>
                 </div>
               </div>
-              
-              <div class="col-5 my-4 py-4 d-flex justify-content-center align-items-center">
+
+              <div class="col-md-5 col-sm-12 my-4 py-4 d-flex justify-content-center align-items-center">
                 <img src="/SiteAssets/images/plate1.png" alt="Centered Image" class="img-fluid">
               </div>
             </div>
           </div>
-          
+
           <div class="tab-pane fade" id="pills-reciepe" role="tabpanel" aria-labelledby="pills-reciepe-tab">
             <div class="row position-relative">
               <div class="col-12 bg-lightred-ingredients my-5 py-5 ">
@@ -261,7 +263,6 @@
 
         </div>
       </div>
-
     </section>
 
 
@@ -282,9 +283,10 @@
           <h3>هل انت متأكد من تسجيل الخروج ؟</h3>
         </div>
         <div class="modal-footer d-flex justify-content-center border-0 my-2">
-          <button type="button" class="btn btn-logout w-25"> <i class="fas fa-sign-out-alt ms-1"></i> الخروج</button>
-          <button type="button" class="btn  main-color bg-light w-25 border" data-bs-dismiss="modal "
-            aria-label="Close"> <i class="fas fa-times-circle ms-1"></i>الغاء</button>
+          <a href="/login.html" type="button" class="btn btn-logout w-25"> <i class="fas fa-sign-out-alt ms-1"></i>
+            الخروج</a>
+          <a href="/kitchen.html" type="button" class="btn  main-color bg-light w-25 border" data-bs-dismiss="modal "
+            aria-label="Close"> <i class="fas fa-times-circle ms-1"></i>الغاء</a>
 
         </div>
       </div>

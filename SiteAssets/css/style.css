@@ -725,11 +725,30 @@ border-radius: 20px;
     }
     .order-cards .card {
         max-height: 310px;
-        margin-inline: 30px;
+        margin-inline: 26px;
     }
     .detailsModal .modal-body {
         max-height: 31rem;
     }
+    .plate-img{
+        display: none !important;
+    }
+    .image-on-top {
+        top: 15px;
+        right: -30px;
+        width: 55px;
+    }
+    .bg-lightred-ingredients {
+        max-height: 20rem;
+    }
+    .tabs{
+        width: 100% !important;
+    }
+    .reciepe-tab ul {
+        padding: 0 !important;
+    }
+  
+  
 }
 @media(max-width: 400px) {
 header .navbar .navbar-service img {
@@ -744,5 +763,11 @@ header .navbar .navbar-service img {
 .card-details .card-body{
     padding-inline: 3px !important;
     padding-top: 5px !important;
+}
+.bg-main .nav-pills .nav-link, .nav-pills .show>.nav-link {
+    width: 210px;
+}
+header .navbar .navbar-service img {
+    width: 98px;
 }
 }
